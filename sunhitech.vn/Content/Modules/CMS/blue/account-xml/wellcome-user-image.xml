@@ -1,0 +1,14 @@
+<NewDataSet>
+  <Table>
+    <LANGUAGE>vi</LANGUAGE>
+    <SUBJECT><![CDATA[Đăng ký thành viên New Work]]></SUBJECT>    
+    <TITLE><![CDATA[]]></TITLE>  
+    <BODY><![CDATA[<div><div><img style="max-width: 100%;" src={0} /></div><br /><br /><div><p><i>Đây là email gửi tự động, bạn vui lòng không trả lời email này.</i></p></div>]]></BODY>	
+  </Table>
+  <Table>
+    <LANGUAGE>en</LANGUAGE>
+    <SUBJECT><![CDATA[Register to become a member of New Work]]></SUBJECT>    
+    <TITLE><![CDATA[]]></TITLE>  
+    <BODY><![CDATA[<div><div><img style="max-width: 100%;" src={0} /></div><br /><br /><div><p><i>This is an automated email, please do not reply to this email.</i></p></div>]]></BODY>	
+  </Table>
+</NewDataSet>

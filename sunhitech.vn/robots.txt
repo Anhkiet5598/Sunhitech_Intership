@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /bin/
+Disallow: /content/
+Disallow: /administrator
+Disallow: /logs/
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /views/
+Disallow: /xls/
+Sitemap: http://sunhitech.vn/sitemap.xml
+Host: www.sunhitech.vn

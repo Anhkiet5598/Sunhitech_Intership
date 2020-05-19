@@ -1,0 +1,183 @@
+[2020-02-23 8:00:54 AM]
+[EXUCUTESCALAR]
+[SQL String: INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'Gary'
+,N'david@sqribble.site'
+,N'416-975-4678'
+,N'1446 Yonge Street'
+,N'Mw vvmdoz Py'
+,N'Hello my name is David,
+
+I wish to first start by stating your site is awesome!
+
+I feel like you can use a bit more text material though.. and I know it''s quite annoying developing it all yourself.
+
+Do you by chance also have issues making Reports, Guides, Digital Info for you product & services or even E-BOOKS?
+
+Simple things like even including an E-book can help you gain thousands of brand-new leads per month!
+
+Think of if you could do it all in the press of one button?
+
+New innovative technology has actually JUST been introduced that allows you to INSTANTLY create expert Ebooks, Reports, Guides, Lead Magnets, Whitepapers, and digital info-products AUTOMATICALLY, and "ON-DEMAND" ... at a push of a button!
+
+> https://sqribble.site/
+
+This is not spam, I simply took great pride in the development of this application and if you aren''t satisfied you get your refund!
+
+It''ll  include CONTENT for you! (Saving you time and $100''s or $1000''s in contracting out costs.).
+
+Develop your list quicker, offer to your customers, or perhaps to your customers as a service for $150 to $600, thanks to the "Commercial License" AND company site that''s consisted of as a bonus!'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY] .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at TN.ComLib.DB.DBBase.ExecuteScalar(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2020-02-23 8:00:54 AM]
+[SQL_LOG]
+INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'Gary'
+,N'david@sqribble.site'
+,N'416-975-4678'
+,N'1446 Yonge Street'
+,N'Mw vvmdoz Py'
+,N'Hello my name is David,
+
+I wish to first start by stating your site is awesome!
+
+I feel like you can use a bit more text material though.. and I know it''s quite annoying developing it all yourself.
+
+Do you by chance also have issues making Reports, Guides, Digital Info for you product & services or even E-BOOKS?
+
+Simple things like even including an E-book can help you gain thousands of brand-new leads per month!
+
+Think of if you could do it all in the press of one button?
+
+New innovative technology has actually JUST been introduced that allows you to INSTANTLY create expert Ebooks, Reports, Guides, Lead Magnets, Whitepapers, and digital info-products AUTOMATICALLY, and "ON-DEMAND" ... at a push of a button!
+
+> https://sqribble.site/
+
+This is not spam, I simply took great pride in the development of this application and if you aren''t satisfied you get your refund!
+
+It''ll  include CONTENT for you! (Saving you time and $100''s or $1000''s in contracting out costs.).
+
+Develop your list quicker, offer to your customers, or perhaps to your customers as a service for $150 to $600, thanks to the "Commercial License" AND company site that''s consisted of as a bonus!'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY]
+[2020-02-23 8:00:54 AM]
+[INSERT]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Insert(T item, String[] arrExcludeFields)
+   at TN.ComLib.CommonHelper`1.Insert(T obj)

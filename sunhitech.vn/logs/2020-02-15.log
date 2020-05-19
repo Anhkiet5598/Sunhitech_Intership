@@ -1,0 +1,185 @@
+[2020-02-15 2:34:00 SA]
+[CHANGELANGUAGE SETCURLANGUAGE]
+[System.Web]
+The remote host closed the connection. The error code is 0x80070057.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at TrungNamCMS.Controllers.Admin.LanguageController.ChangeLanguage(String newlang)
+[2020-02-15 5:05:06 AM]
+[EXUCUTESCALAR]
+[SQL String: INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'M.'
+,N'frankie@wrcktngl.com'
+,N'646 469 5938'
+,N'23 Noalimba Avenue'
+,N'J Rsf'
+,N'Hi,
+Why is your website not featured on Google''s first page for most of your keywords?
+
+You are missing about 50,000+ monthly impressions that could convert into visitors and future clients.
+
+My name is Frankie, I own an SEO/Web Design company called WRCKTNGL Solutions.
+
+We help websites like yours with super low rankings receive proper rankings within 35 days or less. I would like to send you a full website analytical SEO Audit ($250 VALUE) free of charge, I think it''s important you see the value we can bring you.
+
+Please reply and let us know if you would like to see what we are all about visit us at www.wrcktngl.com our SEO packages are extremely affordable. Starting at just $197 a month.
+
+Best Regards,
+
+Frankie
+WRCKTNGL Solutions
+https://wrcktngl.com'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY] .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at TN.ComLib.DB.DBBase.ExecuteScalar(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2020-02-15 5:05:06 AM]
+[SQL_LOG]
+INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'M.'
+,N'frankie@wrcktngl.com'
+,N'646 469 5938'
+,N'23 Noalimba Avenue'
+,N'J Rsf'
+,N'Hi,
+Why is your website not featured on Google''s first page for most of your keywords?
+
+You are missing about 50,000+ monthly impressions that could convert into visitors and future clients.
+
+My name is Frankie, I own an SEO/Web Design company called WRCKTNGL Solutions.
+
+We help websites like yours with super low rankings receive proper rankings within 35 days or less. I would like to send you a full website analytical SEO Audit ($250 VALUE) free of charge, I think it''s important you see the value we can bring you.
+
+Please reply and let us know if you would like to see what we are all about visit us at www.wrcktngl.com our SEO packages are extremely affordable. Starting at just $197 a month.
+
+Best Regards,
+
+Frankie
+WRCKTNGL Solutions
+https://wrcktngl.com'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY]
+[2020-02-15 5:05:06 AM]
+[INSERT]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Insert(T item, String[] arrExcludeFields)
+   at TN.ComLib.CommonHelper`1.Insert(T obj)

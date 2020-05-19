@@ -1,0 +1,36 @@
+[2020-03-01 5:03:33 CH]
+[CHANGELANGUAGE]
+[System]
+Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.HttpRequest.get_UrlReferrer()
+   at System.Web.HttpRequestWrapper.get_UrlReferrer()
+   at TrungNamCMS.Controllers.Admin.LanguageController.ChangeLanguage(String newlang)
+[2020-03-01 5:12:18 CH]
+[CHANGELANGUAGE]
+[System]
+Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.HttpRequest.get_UrlReferrer()
+   at System.Web.HttpRequestWrapper.get_UrlReferrer()
+   at TrungNamCMS.Controllers.Admin.LanguageController.ChangeLanguage(String newlang)
+[2020-03-01 5:19:30 CH]
+[CHANGELANGUAGE]
+[System]
+Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.HttpRequest.get_UrlReferrer()
+   at System.Web.HttpRequestWrapper.get_UrlReferrer()
+   at TrungNamCMS.Controllers.Admin.LanguageController.ChangeLanguage(String newlang)
+[2020-03-01 5:19:44 CH]
+[CHANGELANGUAGE]
+[System]
+Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.HttpRequest.get_UrlReferrer()
+   at System.Web.HttpRequestWrapper.get_UrlReferrer()
+   at TrungNamCMS.Controllers.Admin.LanguageController.ChangeLanguage(String newlang)

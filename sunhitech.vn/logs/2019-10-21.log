@@ -1,0 +1,6 @@
+[2019-10-21 5:23:06 CH]
+[SAVEIMAGE]
+[System.Drawing]
+A generic error occurred in GDI+.
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at TrungNamCMS.Models.CMSUtil.SaveImage(Image imgSrc, Int32 newWidth, String fileDesct, Int32 defColorDepth, Single defResolution, Boolean fixNewWidth)

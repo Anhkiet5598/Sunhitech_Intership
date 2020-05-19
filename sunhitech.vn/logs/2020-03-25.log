@@ -1,0 +1,179 @@
+[2020-03-25 10:38:58 PM]
+[EXUCUTESCALAR]
+[SQL String: INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'M.'
+,N'austin@wrcktngl.com'
+,N'646-326-4649'
+,N'Oude Kleefsebaan 175'
+,N'Puw Ljnfmow ai'
+,N'Hi,
+
+During this viral world wide outbreak each countries economies have been put on halt!  This is the most important time to receive website visitors!
+
+Why is your website - sunhitech.vn  not featured on Google''s first page for most of your keywords?
+
+You are missing about 50,000+ monthly impressions that could convert into visitors and future clients. Now that most people are at home constantly researching it''s the best time to indexed for high search volume keywords.
+
+My name is Austin, I work for an SEO/Web Design company called WRCKTNGL Solutions we are based out of NYC.  After every country heals its people, the global economy will have a huge re-surgeance of consumers and you will want to be on top!
+
+We help websites like yours with super low rankings receive proper rankings within 35 days or less!. I would like to send you a full website analytical SEO Audit ($250 VALUE) free of charge, I think it''s important you see the value we can bring you.
+
+Please reply and let us know if you would like to see what we are all about visit us at www.wrcktngl.com our SEO packages are extremely affordable. Goodluck and godlbess you and your loved ones.
+
+Best Regards,
+Austin M.
+austin@wrcktngl.com
+WRCKTNGL Solutions
+https://wrcktngl.com'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY] .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at TN.ComLib.DB.DBBase.ExecuteScalar(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2020-03-25 10:38:58 PM]
+[SQL_LOG]
+INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'M.'
+,N'austin@wrcktngl.com'
+,N'646-326-4649'
+,N'Oude Kleefsebaan 175'
+,N'Puw Ljnfmow ai'
+,N'Hi,
+
+During this viral world wide outbreak each countries economies have been put on halt!  This is the most important time to receive website visitors!
+
+Why is your website - sunhitech.vn  not featured on Google''s first page for most of your keywords?
+
+You are missing about 50,000+ monthly impressions that could convert into visitors and future clients. Now that most people are at home constantly researching it''s the best time to indexed for high search volume keywords.
+
+My name is Austin, I work for an SEO/Web Design company called WRCKTNGL Solutions we are based out of NYC.  After every country heals its people, the global economy will have a huge re-surgeance of consumers and you will want to be on top!
+
+We help websites like yours with super low rankings receive proper rankings within 35 days or less!. I would like to send you a full website analytical SEO Audit ($250 VALUE) free of charge, I think it''s important you see the value we can bring you.
+
+Please reply and let us know if you would like to see what we are all about visit us at www.wrcktngl.com our SEO packages are extremely affordable. Goodluck and godlbess you and your loved ones.
+
+Best Regards,
+Austin M.
+austin@wrcktngl.com
+WRCKTNGL Solutions
+https://wrcktngl.com'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY]
+[2020-03-25 10:38:58 PM]
+[INSERT]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Insert(T item, String[] arrExcludeFields)
+   at TN.ComLib.CommonHelper`1.Insert(T obj)

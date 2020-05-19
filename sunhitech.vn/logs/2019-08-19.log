@@ -1,0 +1,109 @@
+[2019-08-19 6:16:26 SA]
+[EXECUTENONQUERY]
+[SQL String: UPDATE SLIDES SET 
+[TITLE]=N'20'
+,[LINK]=N' Electrification, automation and digitalization require innovative solutions: Discover Siemens Vietnam as a strong partner, technological pioneer and responsible Giới thiệu | Siemens Vietnam - About us | Siemens Vietnam - Việc làm & Nghề nghiệp ... - Tin tức | Siemens Vietnam  Siemens AG – Wikipedia tiếng Việt https://vi.wikipedia.org/wiki/Siemens_AG  Siemens AG là hãng thiết bị công nghiệp lớn nhất của CHLB Đức và châu Âu [2], các trụ sở quốc tế của Siemens đóng ở Berlin và München . Công ty này có 6 lĩnh vực kinh doanh: tự động hóa & điều khiển, điện lực, ... Siemens (đơn vị) - Điện thoại di động Siemens  Sản phẩm Siemens - Đại lý ủy quyền Siemens tại Việt Nam | Nam Trung http://www.namtrung.com.vn/san-pham-siemens  Là đại lý ủy quyền Siemens. Công ty Nam Trung chuyên cung cấp các loại động cơ điện, biến tần, khớp nối, động cơ phòng nổ với xuất xứ Châu Âu (Đức) và giá tốt Welcome to Siemens Home Appliances International https://www.siemens-home.bsh-group.com/  The Siemens Home website uses cookies and allow Siemens Home Appliances to collect anonymous statistical data to help improve the performance of the website. Động cơ điện - Motor điện Siemens Châu Âu Đức CH SEC | Nam Trung http://www.namtrung.com.vn/dongcodien  Động cơ điện (motor điện) Siemens gồm động cơ điện 3 pha, động cơ điện 1 chiều, động cơ Servo, động cơ điện xoay chiều xuất xứ Châu Âu (CH Sec, Đức) Siemens Vietnam - Trang chủ | Facebook https://www.facebook.com/Siemens.Vietnam  Siemens Vietnam, Thành phố Hồ Chí Minh. 6,3K lượt thích. We strive to be a good citizen and an integral part of the Vietnamese society. Tổng đài siemens | Tổng đài điện thoại Siemens - tongdai.com.vn https://www.tongdai.com.vn/tong-dai-siemens.html  Cung cấp lắp đặt tổng đài Siemens từ 8 máy lẻ lên 1.000 máy lẻ, Hỗ trợ hiển thị số, Trả lời tự động., Dùng cho Công ty, Khách sạn, Văn phòng, Nhà xưởng, Nhà máy, Khu công nghiệp.. Tìm đại lý phân phối ... Siemens Việt Nam - Đại lý phân phối chính thức Siemens tại Việt Nam https://dien-tudong.com/  Siemens Việt Nam - Đại lý phân phối chính thức Siemens tại Việt Nam, Công ty được thành lập từ năm 2005, sau hơn 10 năm hình thành và phát triểN Thiết bị điện Siemens - dien-congnghiep.com http://www.dien-congnghiep.com/thiet-bi-siemens.html  Siemens Logo 230RC6ED1052-1FB00-0BA6 thích hợp cho điều khiển chiếu sáng, bơm, hoặc các ứng dụng lập trình nhỏ, có thời gian thực Mọi người cũng tìm kiếm siemens siemens vietnam siemens healthineers siemens support siemen việt nam siemens ag siemens healthcare vietnam tuyển dụng siemens là gì siemens iot gateway 2040 ‹ TrướcSau › 123456...  Tìm kiếm trên:GoogleYahooBing   Mua quảng cáo cho từ khóa “siemen”'
+,[ORDERING]=0
+,[PATH]=N'/Images/Content/seiment.jpg'
+,[SLIDE_WIDTH]=0
+,[SLIDE_HEIGHT]=0
+,[SLIDE_EFFECT]=N''
+,[SLIDE_SOURCE]=N''
+,[SLIDE_TYPE]=0
+,[SLIDE_FOLDER]=N''
+,[SLIDE_CATEGORY]=N'36'
+,[SLIDE_CATEGORY_NAME]=N'Đối tác'
+,[SHOW_TITLE]=0
+,[SHOW_DESCRIPTION]=0
+,[DESCRIPTION_LIMIT]=0
+,[FIT_SIZE]=0
+,[VISIBLE_IMAGE]=0
+,[MAX_IMAGE]=0
+,[AUTOPLAY]=0
+,[SHOW_PLAY]=0
+,[SHOW_NEXT]=0
+,[PUBLISH]=1
+,[TARGET]=N'_blank'
+,[DESCRIPTION]=N''
+,[MODULE_ID]=0
+,[PORTAL_ID]=3
+,[POSITION_DESCRIPTION]=N''
+  WHERE [ID]=N'277' .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TN.ComLib.DB.DBBase.ExecuteNonQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-19 6:16:26 SA]
+[SQL_LOG]
+UPDATE SLIDES SET 
+[TITLE]=N'20'
+,[LINK]=N' Electrification, automation and digitalization require innovative solutions: Discover Siemens Vietnam as a strong partner, technological pioneer and responsible Giới thiệu | Siemens Vietnam - About us | Siemens Vietnam - Việc làm & Nghề nghiệp ... - Tin tức | Siemens Vietnam  Siemens AG – Wikipedia tiếng Việt https://vi.wikipedia.org/wiki/Siemens_AG  Siemens AG là hãng thiết bị công nghiệp lớn nhất của CHLB Đức và châu Âu [2], các trụ sở quốc tế của Siemens đóng ở Berlin và München . Công ty này có 6 lĩnh vực kinh doanh: tự động hóa & điều khiển, điện lực, ... Siemens (đơn vị) - Điện thoại di động Siemens  Sản phẩm Siemens - Đại lý ủy quyền Siemens tại Việt Nam | Nam Trung http://www.namtrung.com.vn/san-pham-siemens  Là đại lý ủy quyền Siemens. Công ty Nam Trung chuyên cung cấp các loại động cơ điện, biến tần, khớp nối, động cơ phòng nổ với xuất xứ Châu Âu (Đức) và giá tốt Welcome to Siemens Home Appliances International https://www.siemens-home.bsh-group.com/  The Siemens Home website uses cookies and allow Siemens Home Appliances to collect anonymous statistical data to help improve the performance of the website. Động cơ điện - Motor điện Siemens Châu Âu Đức CH SEC | Nam Trung http://www.namtrung.com.vn/dongcodien  Động cơ điện (motor điện) Siemens gồm động cơ điện 3 pha, động cơ điện 1 chiều, động cơ Servo, động cơ điện xoay chiều xuất xứ Châu Âu (CH Sec, Đức) Siemens Vietnam - Trang chủ | Facebook https://www.facebook.com/Siemens.Vietnam  Siemens Vietnam, Thành phố Hồ Chí Minh. 6,3K lượt thích. We strive to be a good citizen and an integral part of the Vietnamese society. Tổng đài siemens | Tổng đài điện thoại Siemens - tongdai.com.vn https://www.tongdai.com.vn/tong-dai-siemens.html  Cung cấp lắp đặt tổng đài Siemens từ 8 máy lẻ lên 1.000 máy lẻ, Hỗ trợ hiển thị số, Trả lời tự động., Dùng cho Công ty, Khách sạn, Văn phòng, Nhà xưởng, Nhà máy, Khu công nghiệp.. Tìm đại lý phân phối ... Siemens Việt Nam - Đại lý phân phối chính thức Siemens tại Việt Nam https://dien-tudong.com/  Siemens Việt Nam - Đại lý phân phối chính thức Siemens tại Việt Nam, Công ty được thành lập từ năm 2005, sau hơn 10 năm hình thành và phát triểN Thiết bị điện Siemens - dien-congnghiep.com http://www.dien-congnghiep.com/thiet-bi-siemens.html  Siemens Logo 230RC6ED1052-1FB00-0BA6 thích hợp cho điều khiển chiếu sáng, bơm, hoặc các ứng dụng lập trình nhỏ, có thời gian thực Mọi người cũng tìm kiếm siemens siemens vietnam siemens healthineers siemens support siemen việt nam siemens ag siemens healthcare vietnam tuyển dụng siemens là gì siemens iot gateway 2040 ‹ TrướcSau › 123456...  Tìm kiếm trên:GoogleYahooBing   Mua quảng cáo cho từ khóa “siemen”'
+,[ORDERING]=0
+,[PATH]=N'/Images/Content/seiment.jpg'
+,[SLIDE_WIDTH]=0
+,[SLIDE_HEIGHT]=0
+,[SLIDE_EFFECT]=N''
+,[SLIDE_SOURCE]=N''
+,[SLIDE_TYPE]=0
+,[SLIDE_FOLDER]=N''
+,[SLIDE_CATEGORY]=N'36'
+,[SLIDE_CATEGORY_NAME]=N'Đối tác'
+,[SHOW_TITLE]=0
+,[SHOW_DESCRIPTION]=0
+,[DESCRIPTION_LIMIT]=0
+,[FIT_SIZE]=0
+,[VISIBLE_IMAGE]=0
+,[MAX_IMAGE]=0
+,[AUTOPLAY]=0
+,[SHOW_PLAY]=0
+,[SHOW_NEXT]=0
+,[PUBLISH]=1
+,[TARGET]=N'_blank'
+,[DESCRIPTION]=N''
+,[MODULE_ID]=0
+,[PORTAL_ID]=3
+,[POSITION_DESCRIPTION]=N''
+  WHERE [ID]=N'277'
+[2019-08-19 6:16:26 SA]
+[UPDATE]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Update(T item, String[] arrFields, Boolean bExclude, String strCondition)
+   at TN.ComLib.CommonHelper`1.Update(T obj, String conditionField, String conditionValue)
+[2019-08-19 8:56:24 SA]
+[SAVEIMAGE]
+[System.Drawing]
+A generic error occurred in GDI+.
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at TrungNamCMS.Models.CMSUtil.SaveImage(Image imgSrc, Int32 newWidth, String fileDesct, Int32 defColorDepth, Single defResolution, Boolean fixNewWidth)
+[2019-08-19 9:04:18 SA]
+[SAVEIMAGE]
+[System.Drawing]
+A generic error occurred in GDI+.
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at TrungNamCMS.Models.CMSUtil.SaveImage(Image imgSrc, Int32 newWidth, String fileDesct, Int32 defColorDepth, Single defResolution, Boolean fixNewWidth)
+[2019-08-19 9:09:13 SA]
+[SAVEIMAGE]
+[System.Drawing]
+A generic error occurred in GDI+.
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at TrungNamCMS.Models.CMSUtil.SaveImage(Image imgSrc, Int32 newWidth, String fileDesct, Int32 defColorDepth, Single defResolution, Boolean fixNewWidth)
+[2019-08-19 9:20:48 SA]
+[SAVEIMAGE]
+[System.Drawing]
+A generic error occurred in GDI+.
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at TrungNamCMS.Models.CMSUtil.SaveImage(Image imgSrc, Int32 newWidth, String fileDesct, Int32 defColorDepth, Single defResolution, Boolean fixNewWidth)
+[2019-08-19 9:55:28 SA]
+[SAVEIMAGE]
+[System.Drawing]
+A generic error occurred in GDI+.
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at TrungNamCMS.Models.CMSUtil.SaveImage(Image imgSrc, Int32 newWidth, String fileDesct, Int32 defColorDepth, Single defResolution, Boolean fixNewWidth)

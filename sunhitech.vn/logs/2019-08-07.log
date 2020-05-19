@@ -1,0 +1,1248 @@
+[2019-08-07 11:57:03 PM]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:03 PM]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:03 PM]
+[SQL_LOG]
+SELECT TOP 100 * FROM MODULESPATH  WHERE 
+[STATUS]  =   10
+  ORDER BY ORDERING  
+[2019-08-07 11:57:03 PM]
+[GETLIST]
+[SELECT TOP 100 * FROM MODULESPATH  WHERE 
+[STATUS]  =   10
+  ORDER BY ORDERING  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:04 PM]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:04 PM]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:04 PM]
+[SQL_LOG]
+SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+[2019-08-07 11:57:04 PM]
+[GETONE2DATASET]
+[SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetOne2DataSet(Object condition)
+[2019-08-07 11:57:04 PM]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:04 PM]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:04 PM]
+[SQL_LOG]
+SELECT TOP 1 * FROM LANGUAGES  WHERE 
+[PUBLISH]  =   1
+  AND  [IS_DEFAULT]  =   1
+  AND  [PORTAL_ID]  =   0
+  
+[2019-08-07 11:57:04 PM]
+[GETONE2DATASET]
+[SELECT TOP 1 * FROM LANGUAGES  WHERE 
+[PUBLISH]  =   1
+  AND  [IS_DEFAULT]  =   1
+  AND  [PORTAL_ID]  =   0
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetOne2DataSet(Object condition)
+[2019-08-07 11:57:04 PM]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:04 PM]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:04 PM]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:04 PM]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:04 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:04 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:04 CH]
+[SQL_LOG]
+SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+[2019-08-07 11:57:04 CH]
+[GETONE2DATASET]
+[SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetOne2DataSet(Object condition)
+[2019-08-07 11:57:04 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:04 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:04 CH]
+[SQL_LOG]
+SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+[2019-08-07 11:57:04 CH]
+[GETONE2DATASET]
+[SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetOne2DataSet(Object condition)
+[2019-08-07 11:57:04 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:04 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:04 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:04 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:04 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:04 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:04 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:04 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:04 CH]
+[INIT HOME]
+[System.Core]
+Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at TrungNamCMS.Models.CMSUtil.GetTemplate(String tempName, Int32 portalId, Boolean bDefault)
+   at TrungNamCMS.Controllers.HomeController.Init(String parameters)
+[2019-08-07 11:57:09 PM]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:09 PM]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:09 PM]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:09 PM]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 PM]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 PM]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 PM]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:10 PM]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETONE2DATASET]
+[SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetOne2DataSet(Object condition)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETONE2DATASET]
+[SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetOne2DataSet(Object condition)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[INIT CONTENT]
+[System.Core]
+Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at TrungNamCMS.Models.CMSUtil.GetTemplate(String tempName, Int32 portalId, Boolean bDefault)
+   at TrungNamCMS.Controllers.ContentController.Init(String parameters)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETONE2DATASET]
+[SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetOne2DataSet(Object condition)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETONE2DATASET]
+[SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetOne2DataSet(Object condition)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM MENUS  WHERE 
+[PUBLISHED]  =   1
+  AND  [PORTAL_ID]  =   0
+  
+[2019-08-07 11:57:10 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM MENUS  WHERE 
+[PUBLISHED]  =   1
+  AND  [PORTAL_ID]  =   0
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETONE2DATASET]
+[SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetOne2DataSet(Object condition)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM MENUS  WHERE 
+[PUBLISHED]  =   1
+  AND  [PORTAL_ID]  =   0
+  
+[2019-08-07 11:57:10 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM MENUS  WHERE 
+[PUBLISHED]  =   1
+  AND  [PORTAL_ID]  =   0
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETONE2DATASET]
+[SELECT TOP 1 * FROM PORTALS  WHERE 
+[URL]  =   N'http://demo.sunhitech.vn/'
+  AND  [STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetOne2DataSet(Object condition)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM MENUS  WHERE 
+[PUBLISHED]  =   1
+  AND  [PORTAL_ID]  =   0
+  
+[2019-08-07 11:57:10 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM MENUS  WHERE 
+[PUBLISHED]  =   1
+  AND  [PORTAL_ID]  =   0
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETLIST]
+[SELECT TOP 99999 * FROM TEMPLATES  WHERE 
+[STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetList(Object condition, Int32 nTop)
+[2019-08-07 11:57:10 CH]
+[OPENCN]
+[.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+[2019-08-07 11:57:10 CH]
+[EXECUTEQUERY DATASET]
+[SQL String: proRunSql .Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TN.ComLib.DB.DBBase.OpenCN()
+   at TN.ComLib.DB.DBBase.ExecuteQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-07 11:57:10 CH]
+[SQL_LOG]
+SELECT TOP 1 * FROM TEMPLATES  WHERE 
+[PORTAL_ID]  =   1
+  AND  [DEFAULT]  =   1
+  AND  [BACK_END]  =   0
+  AND   ([LANGUAGE]='vi' OR [LANGUAGE]='all')   AND  [PUBLISH]  =   1
+  AND  [STATUS]  =   10
+  
+[2019-08-07 11:57:10 CH]
+[GETONE2DATASET]
+[SELECT TOP 1 * FROM TEMPLATES  WHERE 
+[PORTAL_ID]  =   1
+  AND  [DEFAULT]  =   1
+  AND  [BACK_END]  =   0
+  AND   ([LANGUAGE]='vi' OR [LANGUAGE]='all')   AND  [PUBLISH]  =   1
+  AND  [STATUS]  =   10
+  
+.Net SqlClient Data Provider]
+Login failed for user 'sunhitechdb'.
+   at TN.ComLib.DB.DBAccess.RunSqlByStoredProcedure(String sqlString, Int32 nReturnRowsAffected)
+   at TN.ComLib.DB.DBAccess.Select(String strSql)
+   at TN.ComLib.CommonHelper`1.GetOne2DataSet(Object condition)

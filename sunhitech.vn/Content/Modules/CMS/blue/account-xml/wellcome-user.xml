@@ -1,0 +1,14 @@
+<NewDataSet>
+  <Table>
+    <LANGUAGE>vi</LANGUAGE>
+    <SUBJECT><![CDATA[Tạo tài khoản thành công trên New Works]]></SUBJECT>    
+    <TITLE><![CDATA[]]></TITLE>  
+    <BODY><![CDATA[<div><div>Chào mừng <b>[NAME]</b> trở thành thành viên chính thức của New Works.</div><div>Cảm ơn bạn đã đăng ký tham gia cùng chúng tôi.</div><br /><br /><div></div>Email đăng nhập của bạn: <b>[EMAIL]</b><br /><br /><div>Trân trọng,</div><div><strong>Phòng Dịch vụ Khách Hàng</strong></div><div>New Works</div><br /><br /><div><p><i>Đây là email gửi tự động, bạn vui lòng không trả lời email này.</i></p></div>]]></BODY>	
+  </Table>
+  <Table>
+    <LANGUAGE>en</LANGUAGE>
+    <SUBJECT><![CDATA[Register to become a member of New Works]]></SUBJECT>    
+    <TITLE><![CDATA[]]></TITLE>  
+    <BODY><![CDATA[<div><div>Welcome [NAME] to become an official member of New Works</div><div>Thank you for registering to join us.</div><br /><br /><div>Best regards,<br/><br/><strong>Ioptic Customer Care</strong></div><br /><br /><div><p><i>This is an automated email, please do not reply to this email.</i></p></div>]]></BODY>	
+  </Table>
+</NewDataSet>

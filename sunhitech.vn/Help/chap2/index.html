@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Quản lý Bài viết</title>
+	<link href="../css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div>
+		<img src="../img/logo_admin.png" />
+		<hr/>
+    </div>
+	<div class="contain">
+	<div class="dv-left" id="dv-left">
+		
+	</div>
+	
+	<div class="dv-right">
+	<h1>
+	II. Quản lý Bài viết</h1>
+		<h2 id="go-1">
+	1. Tạo mới bài viết</h2>
+<ul>
+	<li>
+		Vào menu D. Nội dung -&gt; 1.Quản lý bài viết -&gt; Thêm mới</li>
+	<li>
+		Trong màn hình viết bài mới chỉ cần nhập các thông tin: Tiêu đề, Thể loại, Hình ảnh tiêu đề, giới thiệu ngắn và nội dung bài viết.</li>
+</ul>
+<p style="margin-left:0.5in;">
+	o&nbsp; Thể loại chính là danh sách các danh mục mà ta đã tạo ở phần trước, phần Alias cũng tương tự như phần danh mục, chỉ khi nào chương trình báo Alias đã tồn tại thì mới gỗ thêm vô.</p>
+<p style="margin-left:0.5in;">
+	o&nbsp; Hình ảnh tiêu đề là hình hình ảnh xuất hiện khi ta muốn thể hiện 1 danh sách các bài viết ra ngoài trang web thì hình ảnh tiêu đề này sẽ xuất hiện cùng với phần giới thiệu ngắn</p>
+<ul>
+	<li>
+		Các phần khác để nguyên.</li>
+	<li>
+		Nếu có nội dung Tiếng Anh thì qua Tab Tiếng Anh nhập nội dung Tiếng Anh và làm tương tự như Tiếng Việt</li>
+	<li>
+		Bấm nút “Lưu và thêm mới” hoặc “Lưu và đóng ” để lưu nội dung vừa nhập.</li>
+</ul>
+<p>
+	<img src="create-article.png" style="width: 800px;"/></p>
+<p>
+	<em>(Chú ý: Hình ảnh tiêu đề nên chọn hình hình không quá nặng và phải gần đúng hoặc tốt nhất là đúng theo tỉ lệ 4:3 (Ví dụ : 400x300) thì hiển thì danh sách bài viết sẽ hiển thị đẹp hơn. Phần hình ảnh tiêu đề và Giới thiệu ngắn sẽ không được xuất hiện bên trong nội dung chính bài viết mà chỉ xuất hiện ở phần danh sách bài viết.)</em></p>
+<h2 id="go-2">
+	2. Sửa bài viết</h2>
+<ul>
+	<li>
+		Vào menu Nội dung -&gt; Quản lý bài viết</li>
+	<li>
+		Chọn bài viết cần sửa, bấm vào nút Sửa để mở màn hình sửa nội dung và chỉnh sửa tương tự như lúc thêm bài viết mới</li>
+	<li>
+		Chỉnh sửa nội dung cần thiết, bấm Lưu để lưu nội dung vừa sửa.</li>
+</ul>
+<h2 id="go-3">
+	3. Không hiển thị bài viết, xoá bài viết</h2>
+<ul>
+	<li>
+		Chọn Nội dung =&gt; Quản lý bài viết =&gt;bấm nút Xóa để xoá bài viết.</li>
+	<li>
+		Để không hiển thị một bài viết thì chọn vào Sửa bài viết và chọn Tình trạng là : Chưa được công bố&nbsp; để không hiển thị một bài viết nào đó.</li>
+</ul>
+		
+	</div>
+
+	</div>
+	<div class="clr"></div>
+	<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $("#dv-left").load("../menuleft.html", function () {
+            $('#chap-2 > ul').css('display', 'block');
+        });
+
+    </script>
+</body>
+</html>

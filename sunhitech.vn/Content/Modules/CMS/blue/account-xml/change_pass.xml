@@ -1,0 +1,26 @@
+<NewDataSet>
+  <Table>
+    <LANGUAGE>vi</LANGUAGE>
+    <SUBJECT><![CDATA[Thông tin lấy lại mật khẩu website New Work]]></SUBJECT>    
+    <BODY1><![CDATA[<h3 style='text-align: center'>Thông tin lấy lại mật khẩu</h3>]]></BODY1>
+    <BODY2><![CDATA[<div>Xin chào [USER_NAME].</div><div>Bạn đã yêu cầu cài lại mật khẩu cho tài khoản của bạn. Đề thực hiện thao tác bạn vui lòng bấm vào link dưới đây.</div><div><a href='[LINK]'>Lấy lại mật khẩu</a></div>]]></BODY2>
+    <BODY3><![CDATA[<br /><br /><br /><div><i>Chú ý: Link trên chỉ có hiệu lực trong vòng 24h.<i></div><div><p><i>Đây là email gởi tự động, quý khách hàng không cần trả lời email này.</i></p></div>]]></BODY3>
+    <BODY4><![CDATA[]]></BODY4>
+    <BODY><![CDATA[]]></BODY>
+	<NOTE><![CDATA[]]></NOTE>
+	<LINK><![CDATA[]]></LINK>
+    <CONTACT><![CDATA[]]></CONTACT>
+  </Table>
+  <Table>
+    <LANGUAGE>en</LANGUAGE>
+    <SUBJECT><![CDATA[Password recovery information website New Work]]></SUBJECT>    
+    <BODY1><![CDATA[<h3 style='text-align: center'>Password recovery information</h3>]]></BODY1>
+    <BODY2><![CDATA[<div>Hi [USER_NAME].</div><div>You have requested a password reset for your account. To do the operation you please click on the link below.</div><div><a href='[LINK]'>Password retrieval</a></div>]]></BODY2>
+    <BODY3><![CDATA[<br /><br /><br /><div><i>Note: This link is only valid for 24 hours.<i></div><div><p><i>This is an automated email, you do not need to reply to this email.</i></p></div>]]></BODY3>
+    <BODY4><![CDATA[]]></BODY4>
+    <BODY><![CDATA[]]></BODY>
+	<NOTE><![CDATA[]]></NOTE>
+	<LINK><![CDATA[]]></LINK>
+    <CONTACT><![CDATA[]]></CONTACT>
+  </Table>
+</NewDataSet>

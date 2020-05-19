@@ -1,0 +1,181 @@
+[2020-02-04 10:50:14 CH]
+[EXUCUTESCALAR]
+[SQL String: INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'Jones'
+,N'eric@talkwithcustomer.com'
+,N'416-385-3200'
+,N''
+,N''
+,N'Hi,
+
+My name is Eric and I was looking at a few different sites online and came across your site sunhitech.vn.  I must say - your website is very impressive.  I am seeing your website on the first page of the Search Engine. 
+
+Have you noticed that 70 percent of visitors who leave your website will never return?  In most cases, this means that 95 percent to 98 percent of your marketing efforts are going to waste, not to mention that you are losing more money in customer acquisition costs than you need to.
+ 
+As a business person, the time and money you put into your marketing efforts is extremely valuable.  So why let it go to waste?  Our users have seen staggering improvements in conversions with insane growths of 150 percent going upwards of 785 percent. Are you ready to unlock the highest conversion revenue from each of your website visitors?  
+
+TalkWithCustomer is a widget which captures a website visitor’s Name, Email address and Phone Number and then calls you immediately, so that you can talk to the Lead exactly when they are live on your website — while they''re hot! Best feature of all, International Long Distance Calling is included!
+  
+Try TalkWithCustomer Live Demo now to see exactly how it works.  Visit http://www.talkwithcustomer.com
+
+When targeting leads, speed is essential - there is a 100x decrease in Leads when a Lead is contacted within 30 minutes vs being contacted within 5 minutes.
+
+If you would like to talk to me about this service, please give me a call.  We have a 14 days trial.  Visit http://www.talkwithcustomer.com to start converting up to 100X more leads today!
+
+Thanks and Best Regards,
+Eric
+
+If you''d like to unsubscribe go to http://liveserveronline.com/talkwithcustomer.aspx?d=sunhitech.vn'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY] .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at TN.ComLib.DB.DBBase.ExecuteScalar(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2020-02-04 10:50:14 CH]
+[SQL_LOG]
+INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'Jones'
+,N'eric@talkwithcustomer.com'
+,N'416-385-3200'
+,N''
+,N''
+,N'Hi,
+
+My name is Eric and I was looking at a few different sites online and came across your site sunhitech.vn.  I must say - your website is very impressive.  I am seeing your website on the first page of the Search Engine. 
+
+Have you noticed that 70 percent of visitors who leave your website will never return?  In most cases, this means that 95 percent to 98 percent of your marketing efforts are going to waste, not to mention that you are losing more money in customer acquisition costs than you need to.
+ 
+As a business person, the time and money you put into your marketing efforts is extremely valuable.  So why let it go to waste?  Our users have seen staggering improvements in conversions with insane growths of 150 percent going upwards of 785 percent. Are you ready to unlock the highest conversion revenue from each of your website visitors?  
+
+TalkWithCustomer is a widget which captures a website visitor’s Name, Email address and Phone Number and then calls you immediately, so that you can talk to the Lead exactly when they are live on your website — while they''re hot! Best feature of all, International Long Distance Calling is included!
+  
+Try TalkWithCustomer Live Demo now to see exactly how it works.  Visit http://www.talkwithcustomer.com
+
+When targeting leads, speed is essential - there is a 100x decrease in Leads when a Lead is contacted within 30 minutes vs being contacted within 5 minutes.
+
+If you would like to talk to me about this service, please give me a call.  We have a 14 days trial.  Visit http://www.talkwithcustomer.com to start converting up to 100X more leads today!
+
+Thanks and Best Regards,
+Eric
+
+If you''d like to unsubscribe go to http://liveserveronline.com/talkwithcustomer.aspx?d=sunhitech.vn'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY]
+[2020-02-04 10:50:14 CH]
+[INSERT]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Insert(T item, String[] arrExcludeFields)
+   at TN.ComLib.CommonHelper`1.Insert(T obj)

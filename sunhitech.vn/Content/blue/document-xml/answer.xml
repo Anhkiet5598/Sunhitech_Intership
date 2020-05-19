@@ -1,0 +1,26 @@
+<NewDataSet>
+  <Table>
+    <LANGUAGE>vi</LANGUAGE>
+    <SUBJECT><![CDATA[TRƯỜNG CAO ĐẲNG VIỄN ĐÔNG]]></SUBJECT>    
+    <BODY1><![CDATA[<h3 style='text-align: center'>Thông tin câu hỏi</h3><table style="border-spacing:10px;border-collapse:initial;margin: 0 0 0 20px;"><tr><td><b>Tiêu đề</b>:</td><td>[TITLE]</td></tr><tr><td><b>Người gửi</b>:</td><td>[FULLNAME]</td></tr><tr><td><b>Địa chỉ</b>:</td><td>[ADDRESS]</td></tr><tr><td><b>Điện thoại</b>:</td><td>[PHONE]</td></tr><tr><td style="vertical-align:top;"><b>Câu hỏi</b>:</td><td style="vertical-align:top;">[QUESTION]</td></tr></table>]]></BODY1>
+    <BODY2><![CDATA[<div style="padding-top: 20px;">Cám ơn quý khách đã tin tưởng sử dụng dịch vụ của chúng tôi. Câu hỏi của quý khách đã được trả lời. Quý khách vui lòng click vào <a href="[LINK]">đây</a> để xem câu trả lời.</div>]]></BODY2>
+    <BODY3><![CDATA[]]></BODY3>
+    <BODY4><![CDATA[]]></BODY4>
+    <BODY><![CDATA[]]></BODY>	
+	<LINK><![CDATA[]]></LINK>
+    <NOTE><![CDATA[<div style='padding-top: 30px; padding-left: 15px'><p><i>Đây là email gởi tự động, quý khách hàng không cần trả lời email này.</i></p></div>]]></NOTE>
+    <CONTACT><![CDATA[]]></CONTACT>
+  </Table>
+  <Table>
+    <LANGUAGE>en</LANGUAGE>
+    <SUBJECT><![CDATA[TRƯỜNG CAO ĐẲNG VIỄN ĐÔNG]]></SUBJECT>    
+	<BODY1><![CDATA[<h3 style='text-align: center'>Question info</h3><table style="border-spacing:10px;border-collapse:initial;margin: 0 0 0 20px;"><tr><td><b>Title</b>:</td><td>[TITLE]</td></tr><tr><td><b>Sender</b>:</td><td>[FULLNAME]</td></tr><tr><td><b>Address</b>:</td><td>[ADDRESS]</td></tr><tr><td><b>Phone</b>:</td><td>[PHONE]</td></tr><tr><td style="vertical-align:top;"><b>Question</b>:</td><td style="vertical-align:top;">[QUESTION]</td></tr>]]></BODY1>
+    <BODY2><![CDATA[<div style="padding-top: 20px;">Thank you for using our service. Your question has been answered. Please click <a href="[LINK]"> here </a> to see the answer.</div>]]></BODY2>
+    <BODY3><![CDATA[]]></BODY3>
+    <BODY4><![CDATA[]]></BODY4>
+    <BODY><![CDATA[]]></BODY>	
+	<LINK><![CDATA[]]></LINK>
+    <NOTE><![CDATA[<div style='padding-top: 30px; padding-left: 15px'><p><i>This is an automated email, and you do not need to reply to this email.</i></p></div>]]></NOTE>
+    <CONTACT><![CDATA[]]></CONTACT>
+  </Table>
+</NewDataSet>

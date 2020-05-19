@@ -1,0 +1,44 @@
+<NewDataSet>
+  <Table>
+    <LANGUAGE>vi</LANGUAGE>
+    <SUBJECT><![CDATA[Thông tin đặt hàng]]></SUBJECT>
+    <ORDER_ID><![CDATA[]]></ORDER_ID>
+    <ORDER_DATE><![CDATA[]]></ORDER_DATE>
+    <ORDER_STATUS><![CDATA[]]></ORDER_STATUS>
+    <SHIPING_METHOD><![CDATA[]]></SHIPING_METHOD>
+    <PAYMENT_METHOD><![CDATA[]]></PAYMENT_METHOD>
+    <CUSTOMER_NOTE><![CDATA[]]></CUSTOMER_NOTE>
+    <CUSTOMER_NAME><![CDATA[]]></CUSTOMER_NAME>
+    <CUSTOMER_ADDRESS><![CDATA[]]></CUSTOMER_ADDRESS>
+    <CUSTOMER_PHONE><![CDATA[]]></CUSTOMER_PHONE>
+    <CUSTOMER_EMAIL><![CDATA[]]></CUSTOMER_EMAIL>
+    <NOTE><![CDATA[<div style='padding-top: 30px; padding-left: 15px'><p><i>Đây là email gởi tự động, quý khách hàng vui lòng không trả lời email này.</i></p></div>]]></NOTE>
+    <CONTACT><![CDATA[<div style='padding-left: 15px; padding-top: 30px'><p>Mọi thắc mắc xin vui lòng liên hệ:</p><p>SUN HITECH</p><p>Địa chỉ: Tầng 6, Tòa Nhà Fimexco, 231-233 lê Thánh Tôn, Phường Bến Thành, Quận 1, Tp HCM, Việt Nam</p><p>Điện thoại: 028 6255 6618</p><p>Fax: 028 6255 6604</p><p>Email: info@sunhitech.vn</p></div>]]></CONTACT>
+    <BODY1><![CDATA[<h3 style='text-align: center'>THÔNG TIN ĐẶT HÀNG</h3><table style='width: 100%; padding-left: 10px'><tr><td style='background-color: #ec1d26; padding-top: 5px; padding-bottom: 5px;'><b style='color:#FFF; font-weight: bold;'>Thông tin</b></td></tr><tr><td><b>Mã đơn hàng:</b> [ORDER_ID]  </td></tr><tr><td><b>Ngày đặt hàng:</b> [ORDER_DATE] </td></tr><tr><td><b>Trạng thái đơn hàng:</b>  Đang chờ xử lý</td></tr><tr><td><b>Phương thức giao hàng:</b> [SHIPING_METHOD]</td></tr><tr><td><b>Hình thức thanh toán:</b> [PAYMENT_METHOD]</td></tr><tr><td><b>Ghi chú của khách hàng:</b> [CUSTOMER_NOTE]</td></tr><tr><td></td></tr><tr><td><b>Họ và tên:</b> [CUSTOMER_NAME]</td></tr><tr><td><b>Địa chỉ:</b> [CUSTOMER_ADDRESS]</td></tr><tr><td><b>Số điện thoại:</b> [CUSTOMER_PHONE]</td></tr><tr><td><b>Email:</b> [CUSTOMER_EMAIL]</td></tr></table><table style='width: 100%; padding-left: 10px'><tr><td colspan='4' style='background-color: #ec1d26; padding-top: 5px; padding-bottom: 5px;'><b style='color:#FFF;'>Chi tiết đơn hàng</b></td></tr><tr><td style='font-weight: bold;'>Tên sản phẩm</td><td style='text-align: center;font-weight: bold;'>Số lượng</td><td style='text-align: center;font-weight: bold;'>Đơn giá</td><td style='text-align: center;font-weight: bold;'>Thành tiền</td></tr>]]></BODY1>
+    <BODY2><![CDATA[<tr><td>[ITEM_NAME]</td><td style='text-align: center'>[QUANTITY]</td><td style='text-align: center'>[PRICE]</td><td style='text-align: center'>[AMOUNT]</td></tr>]]></BODY2>
+    <BODY3><![CDATA[<tr><td colspan='4'><hr size='2' width='100%' align='center'></td></tr><tr><td colspan='3'><p><b>Giảm giá: </b></p></td><td style='text-align: center; font-weight: bold;'>[VOUCHER_VALUE]</td></tr>]]></BODY3>
+    <BODY4><![CDATA[<tr><td colspan='4'><hr size='2' width='100%' align='center'></td></tr><tr><td colspan='3'><p><b>Tổng số tiền phải trả: </b></p></td><td style='text-align: center; font-weight: bold;'>[SUB_TOTAL]</td></tr></table>]]></BODY4>
+    <BODY><![CDATA[]]></BODY>
+  </Table>
+  <Table>
+    <LANGUAGE>en</LANGUAGE>
+    <SUBJECT><![CDATA[Order Info]]></SUBJECT>
+    <ORDER_ID><![CDATA[]]></ORDER_ID>
+    <ORDER_DATE><![CDATA[]]></ORDER_DATE>
+    <ORDER_STATUS><![CDATA[]]></ORDER_STATUS>
+    <SHIPING_METHOD><![CDATA[]]></SHIPING_METHOD>
+    <PAYMENT_METHOD><![CDATA[]]></PAYMENT_METHOD>
+    <CUSTOMER_NOTE><![CDATA[]]></CUSTOMER_NOTE>
+    <CUSTOMER_NAME><![CDATA[]]></CUSTOMER_NAME>
+    <CUSTOMER_ADDRESS><![CDATA[]]></CUSTOMER_ADDRESS>
+    <CUSTOMER_PHONE><![CDATA[]]></CUSTOMER_PHONE>
+    <CUSTOMER_EMAIL><![CDATA[]]></CUSTOMER_EMAIL>
+    <NOTE><![CDATA[<div style='padding-top: 30px; padding-left: 15px'><p><i>This is an email automatically, please do not reply to this email.</i></p></div>]]></NOTE>
+    <CONTACT><![CDATA[<div style='padding-left: 15px; padding-top: 30px'><p>For inquiries please contact:</p><p>SUN HITECH</p><p>Address: Tầng 6, Tòa Nhà Fimexco, 231-233 lê Thánh Tôn, Phường Bến Thành, Quận 1, Tp HCM, Việt Nam</p><p>Telephone: 028 6255 6618</p><p>Fax: 028 6255 6604</p><p>Email: info@sunhitech.vn</p></div>]]></CONTACT>
+    <BODY1><![CDATA[<h3 style='text-align: center'>THÔNG TIN ĐẶT HÀNG</h3><table style='width: 100%; padding-left: 10px'><tr><td style='background-color: #ec1d26; padding-top: 5px; padding-bottom: 5px;'><b style='color:#FFF; font-weight: bold;'>Thông tin</b></td></tr><tr><td><b>Mã đơn hàng:</b> [ORDER_ID]  </td></tr><tr><td><b>Ngày đặt hàng:</b> [ORDER_DATE] </td></tr><tr><td><b>Trạng thái đơn hàng:</b>  Đang chờ xử lý</td></tr><tr><td><b>Phương thức giao hàng:</b> [SHIPING_METHOD]</td></tr><tr><td><b>Hình thức thanh toán:</b> [PAYMENT_METHOD]</td></tr><tr><td><b>Ghi chú của khách hàng:</b> [CUSTOMER_NOTE]</td></tr><tr><td></td></tr><tr><td><b>Họ và tên:</b> [CUSTOMER_NAME]</td></tr><tr><td><b>Địa chỉ:</b> [CUSTOMER_ADDRESS]</td></tr><tr><td><b>Số điện thoại:</b> [CUSTOMER_PHONE]</td></tr><tr><td><b>Email:</b> [CUSTOMER_EMAIL]</td></tr></table><table style='width: 100%; padding-left: 10px'><tr><td colspan='4' style='background-color: #ec1d26; padding-top: 5px; padding-bottom: 5px;'><b style='color:#FFF;'>Chi tiết đơn hàng</b></td></tr><tr><td style='font-weight: bold;'>Tên sản phẩm</td><td style='text-align: center;font-weight: bold;'>Số lượng</td><td style='text-align: center;font-weight: bold;'>Đơn giá</td><td style='text-align: center;font-weight: bold;'>Thành tiền</td></tr>]]></BODY1>
+    <BODY2><![CDATA[<tr><td>[ITEM_NAME]</td><td style='text-align: center'>[QUANTITY]</td><td style='text-align: center'>[PRICE]</td><td style='text-align: center'>[AMOUNT]</td></tr>]]></BODY2>
+    <BODY3><![CDATA[<tr><td colspan='4'><hr size='2' width='100%' align='center'></td></tr><tr><td colspan='3'><p><b>Discount : </b></p></td><td style='text-align: center; font-weight: bold;'>[VOUCHER_VALUE]</td></tr>]]></BODY3>
+    <BODY4><![CDATA[<tr><td colspan='4'><hr size='2' width='100%' align='center'></td></tr><tr><td colspan='3'><p><b>Total Order: </b></p></td><td style='text-align: center; font-weight: bold;'>[SUB_TOTAL]</td></tr></table>]]></BODY4>
+    <BODY><![CDATA[]]></BODY>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,173 @@
+[2020-01-23 9:45:21 SA]
+[EXUCUTESCALAR]
+[SQL String: INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'AlbertoLig'
+,N'monetizzareoggi2019@gmail.com'
+,N'87147956229'
+,N''
+,N''
+,N'Hello, 
+i''m Alberto Simoni from Italy, a proud father of two kids and an happy husband. 
+I work online full time from my home and i like earning also in a passive way thanks my investments. 
+Do you know Umo Finance, the company and its online platform that offers us the best investment solutions ? 
+I don''t refer to scam offers, but to a real cool company with its main headquarters in Dubai, another office in United Kingdom 
+We can invest starting from only 50 dollars to big amount as well (  starting from only 16 days contracts time ) and invest also in 
+bitcoin and ethereum. 
+Actually i have two different deposits opened with them and i receive profits each day and i can withdraw all the time i need. 
+There is also a nice affiliation plan and for this reason i want to give you the chance to earn big money as well with your personal investment. 
+I created a simple but sharp online guide to let you understanding everything where you find also a video proof about the company and all the 
+documents included ( insurance document as well ) I invite you to check for everything thanks my guide here https://umoworldwide.dazeroamarketer.com/ 
+You find also my phone number inside my guide and you can contact me as well directly to my main email address that is monetizzareoggi@gmail.com 
+ 
+Alberto Simoni 
+email: monetizzareoggi@gmail.com 
+whatsapp : +39 3280111149'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY] .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at TN.ComLib.DB.DBBase.ExecuteScalar(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2020-01-23 9:45:21 SA]
+[SQL_LOG]
+INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'AlbertoLig'
+,N'monetizzareoggi2019@gmail.com'
+,N'87147956229'
+,N''
+,N''
+,N'Hello, 
+i''m Alberto Simoni from Italy, a proud father of two kids and an happy husband. 
+I work online full time from my home and i like earning also in a passive way thanks my investments. 
+Do you know Umo Finance, the company and its online platform that offers us the best investment solutions ? 
+I don''t refer to scam offers, but to a real cool company with its main headquarters in Dubai, another office in United Kingdom 
+We can invest starting from only 50 dollars to big amount as well (  starting from only 16 days contracts time ) and invest also in 
+bitcoin and ethereum. 
+Actually i have two different deposits opened with them and i receive profits each day and i can withdraw all the time i need. 
+There is also a nice affiliation plan and for this reason i want to give you the chance to earn big money as well with your personal investment. 
+I created a simple but sharp online guide to let you understanding everything where you find also a video proof about the company and all the 
+documents included ( insurance document as well ) I invite you to check for everything thanks my guide here https://umoworldwide.dazeroamarketer.com/ 
+You find also my phone number inside my guide and you can contact me as well directly to my main email address that is monetizzareoggi@gmail.com 
+ 
+Alberto Simoni 
+email: monetizzareoggi@gmail.com 
+whatsapp : +39 3280111149'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY]
+[2020-01-23 9:45:21 SA]
+[INSERT]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Insert(T item, String[] arrExcludeFields)
+   at TN.ComLib.CommonHelper`1.Insert(T obj)

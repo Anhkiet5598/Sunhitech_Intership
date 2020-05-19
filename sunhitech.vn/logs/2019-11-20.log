@@ -1,0 +1,199 @@
+[2019-11-20 8:00:43 CH]
+[EXUCUTESCALAR]
+[SQL String: INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'FrankJuits'
+,N'revollet.marketing@gmail.com'
+,N'81164813394'
+,N''
+,N''
+,N'Chào. Đây là Chris từ Revollet Marketing International, người phụ trách tiếp thị cho Revollet. 
+ 
+Revollet là một thẻ ghi nợ có thể được sử dụng bằng cách tính phí tiền điện tử như BTC, ETH và XRP. 
+ 
+Bằng cách sử dụng thẻ ghi nợ, bạn có thể rút tiền của mình bằng máy ATM trên toàn thế giới và thanh toán tại các nhà hàng và cửa hàng. 
+ 
+Tôi đã xem trang web của bạn và muốn bạn giới thiệu Revollet trên trang web của bạn. 
+ 
+Tất nhiên, tôi đã chuẩn bị một phần thưởng liên kết, chỉ dành cho bạn. 
+ 
+Nếu bạn tham gia chương trình liên kết của chúng tôi, bạn sẽ nhận được phần thưởng: 
+ 
+$ 10% phí phát hành thẻ 
+$ Phí giao dịch 
+$ Giới thiệu lên cấp ba 
+ 
+Vui lòng kiểm tra trang web của chúng tôi để biết chi tiết. 
+ 
+https://revollet.in 
+ 
+Mẫu đăng ký 
+https://revollet.io?token=MH8Ehnv1 
+ 
+$ Danh sách hoa hồng liên kết $ 
+Phí chuyển tiền quốc tế, phí chuyển khoản, phí gửi tiền (Fiat), phí đổi tiền điện tử, phí đổi tiền, phí phát hành thẻ, phí phí thẻ 
+ 
+Cấp 1 10% 
+Cấp 2 5% 
+Cấp 3 3%'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY] .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at TN.ComLib.DB.DBBase.ExecuteScalar(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-11-20 8:00:43 CH]
+[SQL_LOG]
+INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'FrankJuits'
+,N'revollet.marketing@gmail.com'
+,N'81164813394'
+,N''
+,N''
+,N'Chào. Đây là Chris từ Revollet Marketing International, người phụ trách tiếp thị cho Revollet. 
+ 
+Revollet là một thẻ ghi nợ có thể được sử dụng bằng cách tính phí tiền điện tử như BTC, ETH và XRP. 
+ 
+Bằng cách sử dụng thẻ ghi nợ, bạn có thể rút tiền của mình bằng máy ATM trên toàn thế giới và thanh toán tại các nhà hàng và cửa hàng. 
+ 
+Tôi đã xem trang web của bạn và muốn bạn giới thiệu Revollet trên trang web của bạn. 
+ 
+Tất nhiên, tôi đã chuẩn bị một phần thưởng liên kết, chỉ dành cho bạn. 
+ 
+Nếu bạn tham gia chương trình liên kết của chúng tôi, bạn sẽ nhận được phần thưởng: 
+ 
+$ 10% phí phát hành thẻ 
+$ Phí giao dịch 
+$ Giới thiệu lên cấp ba 
+ 
+Vui lòng kiểm tra trang web của chúng tôi để biết chi tiết. 
+ 
+https://revollet.in 
+ 
+Mẫu đăng ký 
+https://revollet.io?token=MH8Ehnv1 
+ 
+$ Danh sách hoa hồng liên kết $ 
+Phí chuyển tiền quốc tế, phí chuyển khoản, phí gửi tiền (Fiat), phí đổi tiền điện tử, phí đổi tiền, phí phát hành thẻ, phí phí thẻ 
+ 
+Cấp 1 10% 
+Cấp 2 5% 
+Cấp 3 3%'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY]
+[2019-11-20 8:00:43 CH]
+[INSERT]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Insert(T item, String[] arrExcludeFields)
+   at TN.ComLib.CommonHelper`1.Insert(T obj)

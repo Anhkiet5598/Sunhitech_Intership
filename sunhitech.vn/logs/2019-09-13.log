@@ -1,0 +1,7 @@
+[2019-09-13 1:59:50 CH]
+[DELETEITEM]
+[mscorlib]
+Could not find file 'E:\Hosting\Plesk\sunhitech.vn\httpdocs\images\items\JP6'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemInfo.set_Attributes(FileAttributes value)
+   at TrungNamCMS.Controllers.Admin.EShopController.DeleteItem(String itemCode)

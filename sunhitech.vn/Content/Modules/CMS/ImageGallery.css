@@ -1,0 +1,269 @@
+﻿.show_album
+{
+    width: 220px;
+    height: 140px;
+    float: left;
+    border: 1px solid rgb(235,230,235);
+    margin: 7px;
+}
+
+.image_album
+{
+    width: 220px;
+    height: 147px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.album_name
+{
+    width: 165px;
+    height: 50px;
+    text-align: center;
+}
+
+.image_Gallery
+{
+    /*max-height: 142px;*/
+    max-width: 215px;
+    /*margin: 3px;*/
+    vertical-align: bottom;
+    /*border: 1px solid rgb(198,217,44);*/
+    /*min-height:150px;*/
+}
+
+.img_h
+{
+    max-height: 142px;
+    /*max-width: 110px;*/
+    vertical-align: bottom;
+}
+
+
+/*.image_Gallery:hover {
+        border: 1px solid #fbd9d9;
+        cursor: pointer;
+    }*/
+
+.image_main
+{
+    width: 100%;
+    height: 91%;
+}
+
+.imageName
+{
+    width: 211px;
+    height: 50px;
+    text-align: center;
+}
+
+.ozio-he-grid
+{
+    padding: 20px 20px 100px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.lb-product-detail
+{
+    font-weight: bold;
+    font-size: 12pt;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.album-avatar
+{
+    max-width: 215px;
+    max-height: 138px;
+    /*margin: 5px;*/
+}
+
+.lbl-title
+{
+    font-weight: bold;
+    font-family: arial;
+    font-size: 12pt;
+    color: #093583;
+    padding-bottom: 4px;
+    background: rgb(198,217,44);
+    width: 100%;
+    padding-left: 10px;
+}
+
+.display-flex
+{
+    display: flex;
+}
+
+.title-display
+{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 40px;
+    color: #333333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.validation-required
+{
+    margin-top: -10px;
+    color: #f00;
+}
+
+.img-show-imgage
+{
+    max-width: 75px;
+    max-height: 50px;
+}
+
+.name-album
+{
+    /*padding: 35px 10px 2px;*/
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    font-weight: normal;
+}
+
+.quantity-album
+{
+    margin: 0;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 13px;
+    /*padding: 2px 10px 8px;*/
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+.name-image
+{
+    /*padding: 35px 10px 2px;*/
+    padding-left: 10px;
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    font-weight: normal;
+}
+
+.quantity-image
+{
+    padding-left: 5px;
+    margin: 0;
+    font-size: 11px;
+    color: #FFF;
+    line-height: 2.3;
+    text-shadow: 1px 1px 0 black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+.acs
+{
+    position: absolute;
+    top: 95px;
+    left: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.acs-img
+{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    text-align: left;
+    overflow: hidden;
+    background: rgba(0,0,0,0.6); /* #808080;*/
+    opacity: 0.60;
+    display: none;
+    -ms-filter: "alpha(opacity=0.6)";
+    cursor: pointer;
+    -moz-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+}
+
+.image:hover .acs-img
+{
+    display: block;
+    background: #000;
+    color: #fff;
+}
+
+.show-title
+{
+    /*background: rgb(198,217,44);
+    width: 195px;*/
+    display: inline-block;
+    font-size: 13px;
+    color: #004165;
+    font-weight: bold;
+    font-size: 13pt;
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+}
+
+.border-title
+{
+    /*border-top: 4px solid rgb(198,217,44);
+    margin-top: 10px;*/
+}
+
+.btn-show-more
+{
+    width: 300px !important;
+    margin: 10px;
+    background-color: #FCFCFC;
+    border: 1px solid rgb(233, 235, 238);
+    cursor: pointer;
+    /*margin-left: 168px;*/
+    display: inline-block;
+}
+
+.grid{
+    width:100%;
+}
+
+.image
+{
+    /*height: 142px;*/
+    float: left;
+    position: relative;
+    /*margin: 3px;*/
+    /*display: table-cell;*/
+    padding: 5px;
+    vertical-align: bottom;
+    /*border:1px solid #808080;*/
+    /*min-width: 120px;*/
+    text-align: center;
+}
+
+.video-name
+{
+    padding-left: 5px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 2.3;
+    text-shadow: 1px 1px 0 black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}

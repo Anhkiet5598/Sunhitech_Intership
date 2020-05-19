@@ -1,0 +1,35 @@
+a {
+    color: #0088cc;
+    text-decoration: none;
+}
+.clr{
+	clear:both;
+}
+
+hr{
+    margin-bottom:1px;
+}
+
+.menu-left{
+	list-style-type: none;
+}
+
+.menu-left > li > ul{
+	display:none;
+    list-style-type:none;
+}
+.contain{
+	display:table;
+}
+.dv-left{
+	width:250px;
+	display:table-cell;
+	vertical-align:top;
+    background:#FAFAFA;
+}
+
+.dv-right{
+	display:table-cell;
+	padding-left: 10px;
+	vertical-align:top;
+}

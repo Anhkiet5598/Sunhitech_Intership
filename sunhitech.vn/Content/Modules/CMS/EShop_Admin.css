@@ -1,0 +1,157 @@
+﻿.mouse_pointer {
+    cursor: pointer;
+}
+
+.color_red {
+    color: red;
+}
+
+.font_size_1_1em {
+    font-size: 1.1em;
+}
+
+font_size_16px {
+    font-size: 16px;
+}
+
+.upload_image {
+    width: 800px !important;
+    left: 43% !important;
+}
+
+.img_show_item {
+    max-height: 65px;
+    margin: 0 auto;
+}
+
+.page_ination {
+    border-top: 1px solid rgb(201, 201, 201);
+}
+
+.validation_required {
+    float: right;
+    margin-top: -10px;
+    color: #f00;
+}
+
+.importFromExcel {
+    font-style: italic;
+}
+
+.validation {
+    margin-top: -10px;
+    color: #f00;
+}
+
+.find {
+    margin-bottom: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 10px;
+}
+
+.title-display {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 40px;
+    color: #333333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.margin_tr {
+    border-collapse: inherit;
+    border-spacing: 5px;
+}
+/*COMMENT*/
+.title-comment {
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+    text-transform: uppercase;
+    color: #89816C !important;
+    margin-bottom: 15px;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.time-comment {
+    margin-left: 10px;
+    color: gray;
+    font-size: 11.5px;
+}
+
+.body-comment {
+    border-bottom: 1px solid #e8e8e8;
+    margin-left: 10px;
+    max-height: 450px;
+    overflow-y: auto;
+    padding-top:5px;
+}
+
+.add-comment {
+    margin-top: 10px;
+    /*margin-left: 10px;
+    width: 100%;*/
+}
+
+.textbox-description {
+    width: 100%;
+    max-height: 120px;
+}
+
+.like {
+    margin-top: -2px;
+}
+
+.title-like {
+    font-size: 10px;
+    color: #006dcc;
+    cursor: pointer;
+}
+
+    .title-like:hover {
+        text-decoration: underline;
+    }
+
+.img-like {
+    padding-left: 3px;
+    margin-top: -2px;
+}
+
+.count-like {
+    font-size: 10px;
+    color: #006dcc;
+}
+
+.error-comment {
+    font-size: 10px;
+    /* font-weight: bold; */
+    color: #b94a48;
+    /*background-color: #f2dede;*/
+    margin-left: 15px;
+}
+
+.error {
+    margin-bottom: 10px;
+}
+
+.table-item-insert-error {
+    height: 500px;
+    overflow: auto;
+}
+
+.table-comment > tbody > tr > th,
+.table-comment > tbody > tr > td{
+    border-top-color:transparent;
+}

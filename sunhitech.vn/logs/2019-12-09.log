@@ -1,0 +1,191 @@
+[2019-12-09 6:18:50 AM]
+[EXUCUTESCALAR]
+[SQL String: INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'Cecile Huon De Kermadec'
+,N'dutch-coffeeshops895@o2.pl'
+,N'+447463563696'
+,N'1 Jardine Rd'
+,N'Welcome Onboard'
+,N'Hello there
+
+My name is Sergey and I am a founder of Sweaty Quid Freelancer Marketplace where you can buy and sell all types of on-line solutions ranging from backlinks and guest post to explainer video clips, infographics and blog posts for your web site.
+
+I believe that you and your site sunhitech.vn can really benefit from Sweaty Quid, no matter if you wish to provide your services or employ the services of freelancers to help you to expand your business.
+
+I have been a freelancer on numerous marketplaces for over 5 years and have had my accounts arbitrarily shut down, my revenues pocketed and I simply had a difficult time with many low quality freelancers. After much frustration, I made a decision to launch my very own freelance marketplace that would do things differently and better.
+
+After almost one year of caffeinne powered nights, myself and my crew at Creative Bear Tech have built up Sweaty Quid from groun up. One month into our release we have managed to attract a fantastic variety of top-notch freelancers and an exceptionally high number of repeat buyers. I feel this serves as a confirmation to our success.
+
+Sweaty Quid is a spam-free and transparent market place for quality freelancers and buyers. We are rigorously banning all spammy vendors who do not pass our quality threshold and leave only the very best ones. Keeping up with the most recent technologcal changes, we also take cryptocurrency as one of our payment methods. Our ethos that defines us is that sometimes less is more, particularly when it comes to quality freelancers.
+
+We are still very new in comparison to other freelance marketplaces, but we are already punching above our weight.
+
+I would love to welcome you personally to join Sweaty Quid Freelancer Marketplace!
+
+
+Kind regards
+
+Sergey Greenfields
+Co-Founder of Sweaty Quid Freelancer Marketplace
+Flat 9, 1 Jardine Rd, St Katharine''s & Wapping,
+London E1W 3WD, United Kingdom
++447463563696
+https://www.sweatyquid.com'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY] .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at TN.ComLib.DB.DBBase.ExecuteScalar(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-12-09 6:18:50 AM]
+[SQL_LOG]
+INSERT INTO CONTACTS (
+[FULLNAME]
+,[EMAIL]
+,[PHONE]
+,[ADDRESS]
+,[TITLE]
+,[DESCRIPTION]
+,[EMAIL_TO]
+,[ORTHER_INFO]
+,[COMPANY_NAME]
+,[COMPANY_ADDRESS]
+,[COMPANY_PHONE]
+,[FAX]
+,[SERVICES_CODE]
+,[SERVICES]
+,[TYPE]
+,[GENDER]
+,[POST_ZIP]
+,[CITY]
+,[COUNTRY]
+,[PROVINE]
+,[HOME_PHONE]
+,[PHONE_2]
+,[POSITION]
+,[POSITION_NAME]
+,[GROUP]
+,[GROUP_NAME]
+,[FULLNAME_NOSIGN]
+)
+  VALUES(
+N'Cecile Huon De Kermadec'
+,N'dutch-coffeeshops895@o2.pl'
+,N'+447463563696'
+,N'1 Jardine Rd'
+,N'Welcome Onboard'
+,N'Hello there
+
+My name is Sergey and I am a founder of Sweaty Quid Freelancer Marketplace where you can buy and sell all types of on-line solutions ranging from backlinks and guest post to explainer video clips, infographics and blog posts for your web site.
+
+I believe that you and your site sunhitech.vn can really benefit from Sweaty Quid, no matter if you wish to provide your services or employ the services of freelancers to help you to expand your business.
+
+I have been a freelancer on numerous marketplaces for over 5 years and have had my accounts arbitrarily shut down, my revenues pocketed and I simply had a difficult time with many low quality freelancers. After much frustration, I made a decision to launch my very own freelance marketplace that would do things differently and better.
+
+After almost one year of caffeinne powered nights, myself and my crew at Creative Bear Tech have built up Sweaty Quid from groun up. One month into our release we have managed to attract a fantastic variety of top-notch freelancers and an exceptionally high number of repeat buyers. I feel this serves as a confirmation to our success.
+
+Sweaty Quid is a spam-free and transparent market place for quality freelancers and buyers. We are rigorously banning all spammy vendors who do not pass our quality threshold and leave only the very best ones. Keeping up with the most recent technologcal changes, we also take cryptocurrency as one of our payment methods. Our ethos that defines us is that sometimes less is more, particularly when it comes to quality freelancers.
+
+We are still very new in comparison to other freelance marketplaces, but we are already punching above our weight.
+
+I would love to welcome you personally to join Sweaty Quid Freelancer Marketplace!
+
+
+Kind regards
+
+Sergey Greenfields
+Co-Founder of Sweaty Quid Freelancer Marketplace
+Flat 9, 1 Jardine Rd, St Katharine''s & Wapping,
+London E1W 3WD, United Kingdom
++447463563696
+https://www.sweatyquid.com'
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,1
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+,N''
+)
+; SELECT ISNULL(SCOPE_IDENTITY(),1) AS [SCOPE_IDENTITY]
+[2019-12-09 6:18:50 AM]
+[INSERT]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Insert(T item, String[] arrExcludeFields)
+   at TN.ComLib.CommonHelper`1.Insert(T obj)

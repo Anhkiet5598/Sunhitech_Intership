@@ -1,0 +1,12 @@
+[2019-11-06 8:52:23 SA]
+[CHANGELANGUAGE SETCURLANGUAGE]
+[System.Web]
+The remote host closed the connection. The error code is 0x80070057.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponseWrapper.Redirect(String url)
+   at TrungNamCMS.Controllers.Admin.LanguageController.ChangeLanguage(String newlang)

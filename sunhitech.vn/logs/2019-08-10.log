@@ -1,0 +1,210 @@
+[2019-08-10 11:13:49 CH]
+[EXECUTENONQUERY]
+[SQL String: UPDATE MENUS SET 
+[MENU_ID]=1279
+,[MENU_TYPE]=N'main-menu-blog'
+,[TITLE]=N'Products'
+,[ALIAS]=N'products'
+,[PATH]=N'products'
+,[LINK]=N'products'
+,[PUBLISHED]=1
+,[PARENT_ID]=0
+,[LEVEL]=1
+,[ORDERING]=5
+,[LANGUAGE]=N'en'
+,[PORTAL_ID]=3
+,[HOME]=0
+,[CONTROL_TYPE]=N'menu_list_item'
+,[PARAMS]=N'mnid=1279&control_type=menu_list_item&alt=ProductSlideReponsive&lview=ProductGroup1&sml=1&catid=|497|547|545|541|539|657|659|537|535|653|655|533|531|529|543|525|639|641|499|573|569|571|527|643|645|647|649|651|511|565|563|567|513|575|577|581|583|498|559|553|555|557|561|517|589|591|593|595|597|519|599|601|603|605|607|521|623|621|619|625|615|613|611|609|617|523|627|629|631|633|635|637|515|585|587|579|&qpp=24&spg=3&qps=&sort=CREATED_DATE DESC&mid=&linktocart=&linktologin=&linktoshowcart=&linktologin=&shlcat=1&mntype=main-menu&prid=&shcpr=1&shcart=1&shbgroup=&ischeckall=&catidfull=;497|ProductGroup1|||;547|ProductGroup1|||;545|ProductGroup1|||;541|ProductGroup1|||;539|ProductGroup1|||;657|ProductGroup1|||;659|ProductGroup1|||;537|ProductGroup1|||;535|ProductGroup1|||;653|ProductGroup1|||;655|ProductGroup1|||;533|ProductGroup1|||;531|ProductGroup1|||;529|ProductGroup1|||;543|ProductGroup1|||;525|ProductGroup1|||;639|ProductGroup1|||;641|ProductGroup1|||;499|ProductGroup1|||;573|ProductGroup1|||;569|ProductGroup1|||;571|ProductGroup1|||;527|ProductGroup1|||;643|ProductGroup1|||;645|ProductGroup1|||;647|ProductGroup1|||;649|ProductGroup1|||;651|ProductGroup1|||;511|ProductGroup1|||;565|ProductGroup1|||;563|ProductGroup1|||;567|ProductGroup1|||;513|ProductGroup1|||;575|ProductGroup1|||;577|ProductGroup1|||;581|ProductGroup1|||;583|ProductGroup1|||;498|ProductGroup1|||;559|ProductGroup1|||;553|ProductGroup1|||;555|ProductGroup1|||;557|ProductGroup1|||;561|ProductGroup1|||;517|ProductGroup1|||;589|ProductGroup1|||;591|ProductGroup1|||;593|ProductGroup1|||;595|ProductGroup1|||;597|ProductGroup1|||;519|ProductGroup1|||;599|ProductGroup1|||;601|ProductGroup1|||;603|ProductGroup1|||;605|ProductGroup1|||;607|ProductGroup1|||;521|ProductGroup1|||;623|ProductGroup1|||;621|ProductGroup1|||;619|ProductGroup1|||;625|ProductGroup1|||;615|ProductGroup1|||;613|ProductGroup1|||;611|ProductGroup1|||;609|ProductGroup1|||;617|ProductGroup1|||;523|ProductGroup1|||;627|ProductGroup1|||;629|ProductGroup1|||;631|ProductGroup1|||;633|ProductGroup1|||;635|ProductGroup1|||;637|ProductGroup1|||;515|ProductGroup1|||;585|ProductGroup1|||;587|ProductGroup1|||;579|ProductGroup1|||;&viewtype=2&imgg=B&nta=2&dattr=;&sitt=,&origin=&sht=1&shimi=1&shi=1&shst=1&simg=1&shtd=1&shid=1&stp=0&dtpl=DetailOne2Left&ntp=&alt_d=DetailItem&control_type=menu_list_item&alt=ProductSlideReponsive&lview=ProductGroup1&sml=1&catid=|497|547|545|541|539|657|659|537|535|653|655|533|531|529|543|525|639|641|499|573|569|571|527|643|645|647|649|651|511|565|563|567|513|575|577|581|583|498|559|553|555|557|561|517|589|591|593|595|597|519|599|601|603|605|607|521|623|621|619|625|615|613|611|609|617|523|627|629|631|633|635|637|515|585|587|579|&qpp=24&spg=3&qps=&sort=CREATED_DATE DESC&mid=&linktocart=&linktologin=&linktoshowcart=&linktologin=&shlcat=1&mntype=main-menu&prid=&shcpr=1&shcart=1&shbgroup=&ischeckall=&catidfull=;497|ProductGroup1|||;547|ProductGroup1|||;545|ProductGroup1|||;541|ProductGroup1|||;539|ProductGroup1|||;657|ProductGroup1|||;659|ProductGroup1|||;537|ProductGroup1|||;535|ProductGroup1|||;653|ProductGroup1|||;655|ProductGroup1|||;533|ProductGroup1|||;531|ProductGroup1|||;529|ProductGroup1|||;543|ProductGroup1|||;525|ProductGroup1|||;639|ProductGroup1|||;641|ProductGroup1|||;499|ProductGroup1|||;573|ProductGroup1|||;569|ProductGroup1|||;571|ProductGroup1|||;527|ProductGroup1|||;643|ProductGroup1|||;645|ProductGroup1|||;647|ProductGroup1|||;649|ProductGroup1|||;651|ProductGroup1|||;511|ProductGroup1|||;565|ProductGroup1|||;563|ProductGroup1|||;567|ProductGroup1|||;513|ProductGroup1|||;575|ProductGroup1|||;577|ProductGroup1|||;581|ProductGroup1|||;583|ProductGroup1|||;498|ProductGroup1|||;559|ProductGroup1|||;553|ProductGroup1|||;555|ProductGroup1|||;557|ProductGroup1|||;561|ProductGroup1|||;517|ProductGroup1|||;589|ProductGroup1|||;591|ProductGroup1|||;593|ProductGroup1|||;595|ProductGroup1|||;597|ProductGroup1|||;519|ProductGroup1|||;599|ProductGroup1|||;601|ProductGroup1|||;603|ProductGroup1|||;605|ProductGroup1|||;607|ProductGroup1|||;521|ProductGroup1|||;623|ProductGroup1|||;621|ProductGroup1|||;619|ProductGroup1|||;625|ProductGroup1|||;615|ProductGroup1|||;613|ProductGroup1|||;611|ProductGroup1|||;609|ProductGroup1|||;617|ProductGroup1|||;523|ProductGroup1|||;627|ProductGroup1|||;629|ProductGroup1|||;631|ProductGroup1|||;633|ProductGroup1|||;635|ProductGroup1|||;637|ProductGroup1|||;515|ProductGroup1|||;585|ProductGroup1|||;587|ProductGroup1|||;579|ProductGroup1|||;&viewtype=2&imgg=B&nta=2&dattr=;&sitt=,&origin=&sht=1&shimi=1&shi=1&shst=1&simg=1&shtd=1&shid=1&stp=0&dtpl=DetailOne2Left&ntp=&alt_d=DetailItem'
+,[CONTROLLER_NAME]=N'ShowItem'
+,[ACTION_NAME]=N'SeachItemByCategory'
+,[DESCRIPTION]=N''
+,[HASCHILD]=0
+,[CONTROL_NAME]=N'Danh sách sản phẩm'
+,[SHOW_TITLE]=1
+,[META_DESC]=N'Sản phẩm'
+,[META_KEY]=N'Sản phẩm'
+,[PUBLIC]=0
+,[CSS_NAME]=N'menu-title-new'
+,[CONTENT]=N''
+,[IMAGE]=N''
+,[REQUIRED_LOGIN]=0
+,[TARGET]=N'_self'
+,[TEMP_NAME]=N'blue'
+,[STYLE_NAME]=N'Detail'
+,[TOTAL_ITEM]=0
+,[BAR_COLOR]=N''
+,[TITLE_COLOR]=N''
+,[TITLE_HEIGHT]=N''
+,[BACKGROUND_COLOR]=N''
+,[META_TITLE]=N'Sản phẩm'
+  WHERE 
+[MENU_ID]  =   1279
+  AND   ([LANGUAGE]='en' OR [LANGUAGE]='all')   AND  [PORTAL_ID]  =   3
+  .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TN.ComLib.DB.DBBase.ExecuteNonQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-10 11:13:49 CH]
+[SQL_LOG]
+UPDATE MENUS SET 
+[MENU_ID]=1279
+,[MENU_TYPE]=N'main-menu-blog'
+,[TITLE]=N'Products'
+,[ALIAS]=N'products'
+,[PATH]=N'products'
+,[LINK]=N'products'
+,[PUBLISHED]=1
+,[PARENT_ID]=0
+,[LEVEL]=1
+,[ORDERING]=5
+,[LANGUAGE]=N'en'
+,[PORTAL_ID]=3
+,[HOME]=0
+,[CONTROL_TYPE]=N'menu_list_item'
+,[PARAMS]=N'mnid=1279&control_type=menu_list_item&alt=ProductSlideReponsive&lview=ProductGroup1&sml=1&catid=|497|547|545|541|539|657|659|537|535|653|655|533|531|529|543|525|639|641|499|573|569|571|527|643|645|647|649|651|511|565|563|567|513|575|577|581|583|498|559|553|555|557|561|517|589|591|593|595|597|519|599|601|603|605|607|521|623|621|619|625|615|613|611|609|617|523|627|629|631|633|635|637|515|585|587|579|&qpp=24&spg=3&qps=&sort=CREATED_DATE DESC&mid=&linktocart=&linktologin=&linktoshowcart=&linktologin=&shlcat=1&mntype=main-menu&prid=&shcpr=1&shcart=1&shbgroup=&ischeckall=&catidfull=;497|ProductGroup1|||;547|ProductGroup1|||;545|ProductGroup1|||;541|ProductGroup1|||;539|ProductGroup1|||;657|ProductGroup1|||;659|ProductGroup1|||;537|ProductGroup1|||;535|ProductGroup1|||;653|ProductGroup1|||;655|ProductGroup1|||;533|ProductGroup1|||;531|ProductGroup1|||;529|ProductGroup1|||;543|ProductGroup1|||;525|ProductGroup1|||;639|ProductGroup1|||;641|ProductGroup1|||;499|ProductGroup1|||;573|ProductGroup1|||;569|ProductGroup1|||;571|ProductGroup1|||;527|ProductGroup1|||;643|ProductGroup1|||;645|ProductGroup1|||;647|ProductGroup1|||;649|ProductGroup1|||;651|ProductGroup1|||;511|ProductGroup1|||;565|ProductGroup1|||;563|ProductGroup1|||;567|ProductGroup1|||;513|ProductGroup1|||;575|ProductGroup1|||;577|ProductGroup1|||;581|ProductGroup1|||;583|ProductGroup1|||;498|ProductGroup1|||;559|ProductGroup1|||;553|ProductGroup1|||;555|ProductGroup1|||;557|ProductGroup1|||;561|ProductGroup1|||;517|ProductGroup1|||;589|ProductGroup1|||;591|ProductGroup1|||;593|ProductGroup1|||;595|ProductGroup1|||;597|ProductGroup1|||;519|ProductGroup1|||;599|ProductGroup1|||;601|ProductGroup1|||;603|ProductGroup1|||;605|ProductGroup1|||;607|ProductGroup1|||;521|ProductGroup1|||;623|ProductGroup1|||;621|ProductGroup1|||;619|ProductGroup1|||;625|ProductGroup1|||;615|ProductGroup1|||;613|ProductGroup1|||;611|ProductGroup1|||;609|ProductGroup1|||;617|ProductGroup1|||;523|ProductGroup1|||;627|ProductGroup1|||;629|ProductGroup1|||;631|ProductGroup1|||;633|ProductGroup1|||;635|ProductGroup1|||;637|ProductGroup1|||;515|ProductGroup1|||;585|ProductGroup1|||;587|ProductGroup1|||;579|ProductGroup1|||;&viewtype=2&imgg=B&nta=2&dattr=;&sitt=,&origin=&sht=1&shimi=1&shi=1&shst=1&simg=1&shtd=1&shid=1&stp=0&dtpl=DetailOne2Left&ntp=&alt_d=DetailItem&control_type=menu_list_item&alt=ProductSlideReponsive&lview=ProductGroup1&sml=1&catid=|497|547|545|541|539|657|659|537|535|653|655|533|531|529|543|525|639|641|499|573|569|571|527|643|645|647|649|651|511|565|563|567|513|575|577|581|583|498|559|553|555|557|561|517|589|591|593|595|597|519|599|601|603|605|607|521|623|621|619|625|615|613|611|609|617|523|627|629|631|633|635|637|515|585|587|579|&qpp=24&spg=3&qps=&sort=CREATED_DATE DESC&mid=&linktocart=&linktologin=&linktoshowcart=&linktologin=&shlcat=1&mntype=main-menu&prid=&shcpr=1&shcart=1&shbgroup=&ischeckall=&catidfull=;497|ProductGroup1|||;547|ProductGroup1|||;545|ProductGroup1|||;541|ProductGroup1|||;539|ProductGroup1|||;657|ProductGroup1|||;659|ProductGroup1|||;537|ProductGroup1|||;535|ProductGroup1|||;653|ProductGroup1|||;655|ProductGroup1|||;533|ProductGroup1|||;531|ProductGroup1|||;529|ProductGroup1|||;543|ProductGroup1|||;525|ProductGroup1|||;639|ProductGroup1|||;641|ProductGroup1|||;499|ProductGroup1|||;573|ProductGroup1|||;569|ProductGroup1|||;571|ProductGroup1|||;527|ProductGroup1|||;643|ProductGroup1|||;645|ProductGroup1|||;647|ProductGroup1|||;649|ProductGroup1|||;651|ProductGroup1|||;511|ProductGroup1|||;565|ProductGroup1|||;563|ProductGroup1|||;567|ProductGroup1|||;513|ProductGroup1|||;575|ProductGroup1|||;577|ProductGroup1|||;581|ProductGroup1|||;583|ProductGroup1|||;498|ProductGroup1|||;559|ProductGroup1|||;553|ProductGroup1|||;555|ProductGroup1|||;557|ProductGroup1|||;561|ProductGroup1|||;517|ProductGroup1|||;589|ProductGroup1|||;591|ProductGroup1|||;593|ProductGroup1|||;595|ProductGroup1|||;597|ProductGroup1|||;519|ProductGroup1|||;599|ProductGroup1|||;601|ProductGroup1|||;603|ProductGroup1|||;605|ProductGroup1|||;607|ProductGroup1|||;521|ProductGroup1|||;623|ProductGroup1|||;621|ProductGroup1|||;619|ProductGroup1|||;625|ProductGroup1|||;615|ProductGroup1|||;613|ProductGroup1|||;611|ProductGroup1|||;609|ProductGroup1|||;617|ProductGroup1|||;523|ProductGroup1|||;627|ProductGroup1|||;629|ProductGroup1|||;631|ProductGroup1|||;633|ProductGroup1|||;635|ProductGroup1|||;637|ProductGroup1|||;515|ProductGroup1|||;585|ProductGroup1|||;587|ProductGroup1|||;579|ProductGroup1|||;&viewtype=2&imgg=B&nta=2&dattr=;&sitt=,&origin=&sht=1&shimi=1&shi=1&shst=1&simg=1&shtd=1&shid=1&stp=0&dtpl=DetailOne2Left&ntp=&alt_d=DetailItem'
+,[CONTROLLER_NAME]=N'ShowItem'
+,[ACTION_NAME]=N'SeachItemByCategory'
+,[DESCRIPTION]=N''
+,[HASCHILD]=0
+,[CONTROL_NAME]=N'Danh sách sản phẩm'
+,[SHOW_TITLE]=1
+,[META_DESC]=N'Sản phẩm'
+,[META_KEY]=N'Sản phẩm'
+,[PUBLIC]=0
+,[CSS_NAME]=N'menu-title-new'
+,[CONTENT]=N''
+,[IMAGE]=N''
+,[REQUIRED_LOGIN]=0
+,[TARGET]=N'_self'
+,[TEMP_NAME]=N'blue'
+,[STYLE_NAME]=N'Detail'
+,[TOTAL_ITEM]=0
+,[BAR_COLOR]=N''
+,[TITLE_COLOR]=N''
+,[TITLE_HEIGHT]=N''
+,[BACKGROUND_COLOR]=N''
+,[META_TITLE]=N'Sản phẩm'
+  WHERE 
+[MENU_ID]  =   1279
+  AND   ([LANGUAGE]='en' OR [LANGUAGE]='all')   AND  [PORTAL_ID]  =   3
+ 
+[2019-08-10 11:13:49 CH]
+[UPDATE]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Update(T item, String[] arrFields, Boolean bExclude, String strCondition)
+   at TN.ComLib.CommonHelper`1.Update(T obj, String[] arrFields, Boolean bExclude, Object condition)
+[2019-08-10 11:18:37 CH]
+[EXECUTENONQUERY]
+[SQL String: UPDATE MENUS SET 
+[MENU_ID]=1279
+,[MENU_TYPE]=N'main-menu-blog'
+,[TITLE]=N'Products'
+,[ALIAS]=N'products'
+,[PATH]=N'products'
+,[LINK]=N'products'
+,[PUBLISHED]=1
+,[PARENT_ID]=0
+,[LEVEL]=1
+,[ORDERING]=5
+,[LANGUAGE]=N'en'
+,[PORTAL_ID]=3
+,[HOME]=0
+,[CONTROL_TYPE]=N'menu_list_item'
+,[PARAMS]=N'mnid=1279&control_type=menu_list_item&alt=ListProductGroup&lview=ProductGroup1&sml=1&catid=|547|545|541|539|657|659|537|535|653|655|533|531|529|543|525|639|641|499|573|569|571|527|643|645|647|649|651|511|565|563|567|513|575|577|581|583|498|559|553|555|557|561|517|589|591|593|595|597|519|599|601|603|605|607|521|623|621|619|625|615|613|611|609|617|523|627|629|631|633|635|637|515|585|587|579|&qpp=24&spg=3&qps=&sort=CREATED_DATE DESC&mid=&linktocart=&linktologin=&linktoshowcart=&linktologin=&shlcat=1&mntype=main-menu&prid=&shcpr=1&shcart=1&shbgroup=&ischeckall=&catidfull=;547|ProductGroup1|||;545|ProductGroup1|||;541|ProductGroup1|||;539|ProductGroup1|||;657|ProductGroup1|||;659|ProductGroup1|||;537|ProductGroup1|||;535|ProductGroup1|||;653|ProductGroup1|||;655|ProductGroup1|||;533|ProductGroup1|||;531|ProductGroup1|||;529|ProductGroup1|||;543|ProductGroup1|||;525|ProductGroup1|||;639|ProductGroup1|||;641|ProductGroup1|||;499|ProductGroup1|||;573|ProductGroup1|||;569|ProductGroup1|||;571|ProductGroup1|||;527|ProductGroup1|||;643|ProductGroup1|||;645|ProductGroup1|||;647|ProductGroup1|||;649|ProductGroup1|||;651|ProductGroup1|||;511|ProductGroup1|||;565|ProductGroup1|||;563|ProductGroup1|||;567|ProductGroup1|||;513|ProductGroup1|||;575|ProductGroup1|||;577|ProductGroup1|||;581|ProductGroup1|||;583|ProductGroup1|||;498|ProductGroup1|||;559|ProductGroup1|||;553|ProductGroup1|||;555|ProductGroup1|||;557|ProductGroup1|||;561|ProductGroup1|||;517|ProductGroup1|||;589|ProductGroup1|||;591|ProductGroup1|||;593|ProductGroup1|||;595|ProductGroup1|||;597|ProductGroup1|||;519|ProductGroup1|||;599|ProductGroup1|||;601|ProductGroup1|||;603|ProductGroup1|||;605|ProductGroup1|||;607|ProductGroup1|||;521|ProductGroup1|||;623|ProductGroup1|||;621|ProductGroup1|||;619|ProductGroup1|||;625|ProductGroup1|||;615|ProductGroup1|||;613|ProductGroup1|||;611|ProductGroup1|||;609|ProductGroup1|||;617|ProductGroup1|||;523|ProductGroup1|||;627|ProductGroup1|||;629|ProductGroup1|||;631|ProductGroup1|||;633|ProductGroup1|||;635|ProductGroup1|||;637|ProductGroup1|||;515|ProductGroup1|||;585|ProductGroup1|||;587|ProductGroup1|||;579|ProductGroup1|||;&viewtype=2&imgg=B&nta=2&dattr=;&sitt=,&origin=&sht=1&shimi=1&shi=1&shst=1&simg=1&shtd=1&shid=1&stp=0&dtpl=DetailOne2Left&ntp=&alt_d=DetailItem&control_type=menu_list_item&alt=ListProductGroup&lview=ProductGroup1&sml=1&catid=|547|545|541|539|657|659|537|535|653|655|533|531|529|543|525|639|641|499|573|569|571|527|643|645|647|649|651|511|565|563|567|513|575|577|581|583|498|559|553|555|557|561|517|589|591|593|595|597|519|599|601|603|605|607|521|623|621|619|625|615|613|611|609|617|523|627|629|631|633|635|637|515|585|587|579|&qpp=24&spg=3&qps=&sort=CREATED_DATE DESC&mid=&linktocart=&linktologin=&linktoshowcart=&linktologin=&shlcat=1&mntype=main-menu&prid=&shcpr=1&shcart=1&shbgroup=&ischeckall=&catidfull=;547|ProductGroup1|||;545|ProductGroup1|||;541|ProductGroup1|||;539|ProductGroup1|||;657|ProductGroup1|||;659|ProductGroup1|||;537|ProductGroup1|||;535|ProductGroup1|||;653|ProductGroup1|||;655|ProductGroup1|||;533|ProductGroup1|||;531|ProductGroup1|||;529|ProductGroup1|||;543|ProductGroup1|||;525|ProductGroup1|||;639|ProductGroup1|||;641|ProductGroup1|||;499|ProductGroup1|||;573|ProductGroup1|||;569|ProductGroup1|||;571|ProductGroup1|||;527|ProductGroup1|||;643|ProductGroup1|||;645|ProductGroup1|||;647|ProductGroup1|||;649|ProductGroup1|||;651|ProductGroup1|||;511|ProductGroup1|||;565|ProductGroup1|||;563|ProductGroup1|||;567|ProductGroup1|||;513|ProductGroup1|||;575|ProductGroup1|||;577|ProductGroup1|||;581|ProductGroup1|||;583|ProductGroup1|||;498|ProductGroup1|||;559|ProductGroup1|||;553|ProductGroup1|||;555|ProductGroup1|||;557|ProductGroup1|||;561|ProductGroup1|||;517|ProductGroup1|||;589|ProductGroup1|||;591|ProductGroup1|||;593|ProductGroup1|||;595|ProductGroup1|||;597|ProductGroup1|||;519|ProductGroup1|||;599|ProductGroup1|||;601|ProductGroup1|||;603|ProductGroup1|||;605|ProductGroup1|||;607|ProductGroup1|||;521|ProductGroup1|||;623|ProductGroup1|||;621|ProductGroup1|||;619|ProductGroup1|||;625|ProductGroup1|||;615|ProductGroup1|||;613|ProductGroup1|||;611|ProductGroup1|||;609|ProductGroup1|||;617|ProductGroup1|||;523|ProductGroup1|||;627|ProductGroup1|||;629|ProductGroup1|||;631|ProductGroup1|||;633|ProductGroup1|||;635|ProductGroup1|||;637|ProductGroup1|||;515|ProductGroup1|||;585|ProductGroup1|||;587|ProductGroup1|||;579|ProductGroup1|||;&viewtype=2&imgg=B&nta=2&dattr=;&sitt=,&origin=&sht=1&shimi=1&shi=1&shst=1&simg=1&shtd=1&shid=1&stp=0&dtpl=DetailOne2Left&ntp=&alt_d=DetailItem'
+,[CONTROLLER_NAME]=N'ShowItem'
+,[ACTION_NAME]=N'SeachItemByCategory'
+,[DESCRIPTION]=N''
+,[HASCHILD]=0
+,[CONTROL_NAME]=N'Danh sách sản phẩm'
+,[SHOW_TITLE]=1
+,[META_DESC]=N'Sản phẩm'
+,[META_KEY]=N'Sản phẩm'
+,[PUBLIC]=0
+,[CSS_NAME]=N'menu-title-new'
+,[CONTENT]=N''
+,[IMAGE]=N''
+,[REQUIRED_LOGIN]=0
+,[TARGET]=N'_self'
+,[TEMP_NAME]=N'blue'
+,[STYLE_NAME]=N'Detail'
+,[TOTAL_ITEM]=0
+,[BAR_COLOR]=N''
+,[TITLE_COLOR]=N''
+,[TITLE_HEIGHT]=N''
+,[BACKGROUND_COLOR]=N''
+,[META_TITLE]=N'Sản phẩm'
+  WHERE 
+[MENU_ID]  =   1279
+  AND   ([LANGUAGE]='en' OR [LANGUAGE]='all')   AND  [PORTAL_ID]  =   3
+  .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TN.ComLib.DB.DBBase.ExecuteNonQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-10 11:18:37 CH]
+[SQL_LOG]
+UPDATE MENUS SET 
+[MENU_ID]=1279
+,[MENU_TYPE]=N'main-menu-blog'
+,[TITLE]=N'Products'
+,[ALIAS]=N'products'
+,[PATH]=N'products'
+,[LINK]=N'products'
+,[PUBLISHED]=1
+,[PARENT_ID]=0
+,[LEVEL]=1
+,[ORDERING]=5
+,[LANGUAGE]=N'en'
+,[PORTAL_ID]=3
+,[HOME]=0
+,[CONTROL_TYPE]=N'menu_list_item'
+,[PARAMS]=N'mnid=1279&control_type=menu_list_item&alt=ListProductGroup&lview=ProductGroup1&sml=1&catid=|547|545|541|539|657|659|537|535|653|655|533|531|529|543|525|639|641|499|573|569|571|527|643|645|647|649|651|511|565|563|567|513|575|577|581|583|498|559|553|555|557|561|517|589|591|593|595|597|519|599|601|603|605|607|521|623|621|619|625|615|613|611|609|617|523|627|629|631|633|635|637|515|585|587|579|&qpp=24&spg=3&qps=&sort=CREATED_DATE DESC&mid=&linktocart=&linktologin=&linktoshowcart=&linktologin=&shlcat=1&mntype=main-menu&prid=&shcpr=1&shcart=1&shbgroup=&ischeckall=&catidfull=;547|ProductGroup1|||;545|ProductGroup1|||;541|ProductGroup1|||;539|ProductGroup1|||;657|ProductGroup1|||;659|ProductGroup1|||;537|ProductGroup1|||;535|ProductGroup1|||;653|ProductGroup1|||;655|ProductGroup1|||;533|ProductGroup1|||;531|ProductGroup1|||;529|ProductGroup1|||;543|ProductGroup1|||;525|ProductGroup1|||;639|ProductGroup1|||;641|ProductGroup1|||;499|ProductGroup1|||;573|ProductGroup1|||;569|ProductGroup1|||;571|ProductGroup1|||;527|ProductGroup1|||;643|ProductGroup1|||;645|ProductGroup1|||;647|ProductGroup1|||;649|ProductGroup1|||;651|ProductGroup1|||;511|ProductGroup1|||;565|ProductGroup1|||;563|ProductGroup1|||;567|ProductGroup1|||;513|ProductGroup1|||;575|ProductGroup1|||;577|ProductGroup1|||;581|ProductGroup1|||;583|ProductGroup1|||;498|ProductGroup1|||;559|ProductGroup1|||;553|ProductGroup1|||;555|ProductGroup1|||;557|ProductGroup1|||;561|ProductGroup1|||;517|ProductGroup1|||;589|ProductGroup1|||;591|ProductGroup1|||;593|ProductGroup1|||;595|ProductGroup1|||;597|ProductGroup1|||;519|ProductGroup1|||;599|ProductGroup1|||;601|ProductGroup1|||;603|ProductGroup1|||;605|ProductGroup1|||;607|ProductGroup1|||;521|ProductGroup1|||;623|ProductGroup1|||;621|ProductGroup1|||;619|ProductGroup1|||;625|ProductGroup1|||;615|ProductGroup1|||;613|ProductGroup1|||;611|ProductGroup1|||;609|ProductGroup1|||;617|ProductGroup1|||;523|ProductGroup1|||;627|ProductGroup1|||;629|ProductGroup1|||;631|ProductGroup1|||;633|ProductGroup1|||;635|ProductGroup1|||;637|ProductGroup1|||;515|ProductGroup1|||;585|ProductGroup1|||;587|ProductGroup1|||;579|ProductGroup1|||;&viewtype=2&imgg=B&nta=2&dattr=;&sitt=,&origin=&sht=1&shimi=1&shi=1&shst=1&simg=1&shtd=1&shid=1&stp=0&dtpl=DetailOne2Left&ntp=&alt_d=DetailItem&control_type=menu_list_item&alt=ListProductGroup&lview=ProductGroup1&sml=1&catid=|547|545|541|539|657|659|537|535|653|655|533|531|529|543|525|639|641|499|573|569|571|527|643|645|647|649|651|511|565|563|567|513|575|577|581|583|498|559|553|555|557|561|517|589|591|593|595|597|519|599|601|603|605|607|521|623|621|619|625|615|613|611|609|617|523|627|629|631|633|635|637|515|585|587|579|&qpp=24&spg=3&qps=&sort=CREATED_DATE DESC&mid=&linktocart=&linktologin=&linktoshowcart=&linktologin=&shlcat=1&mntype=main-menu&prid=&shcpr=1&shcart=1&shbgroup=&ischeckall=&catidfull=;547|ProductGroup1|||;545|ProductGroup1|||;541|ProductGroup1|||;539|ProductGroup1|||;657|ProductGroup1|||;659|ProductGroup1|||;537|ProductGroup1|||;535|ProductGroup1|||;653|ProductGroup1|||;655|ProductGroup1|||;533|ProductGroup1|||;531|ProductGroup1|||;529|ProductGroup1|||;543|ProductGroup1|||;525|ProductGroup1|||;639|ProductGroup1|||;641|ProductGroup1|||;499|ProductGroup1|||;573|ProductGroup1|||;569|ProductGroup1|||;571|ProductGroup1|||;527|ProductGroup1|||;643|ProductGroup1|||;645|ProductGroup1|||;647|ProductGroup1|||;649|ProductGroup1|||;651|ProductGroup1|||;511|ProductGroup1|||;565|ProductGroup1|||;563|ProductGroup1|||;567|ProductGroup1|||;513|ProductGroup1|||;575|ProductGroup1|||;577|ProductGroup1|||;581|ProductGroup1|||;583|ProductGroup1|||;498|ProductGroup1|||;559|ProductGroup1|||;553|ProductGroup1|||;555|ProductGroup1|||;557|ProductGroup1|||;561|ProductGroup1|||;517|ProductGroup1|||;589|ProductGroup1|||;591|ProductGroup1|||;593|ProductGroup1|||;595|ProductGroup1|||;597|ProductGroup1|||;519|ProductGroup1|||;599|ProductGroup1|||;601|ProductGroup1|||;603|ProductGroup1|||;605|ProductGroup1|||;607|ProductGroup1|||;521|ProductGroup1|||;623|ProductGroup1|||;621|ProductGroup1|||;619|ProductGroup1|||;625|ProductGroup1|||;615|ProductGroup1|||;613|ProductGroup1|||;611|ProductGroup1|||;609|ProductGroup1|||;617|ProductGroup1|||;523|ProductGroup1|||;627|ProductGroup1|||;629|ProductGroup1|||;631|ProductGroup1|||;633|ProductGroup1|||;635|ProductGroup1|||;637|ProductGroup1|||;515|ProductGroup1|||;585|ProductGroup1|||;587|ProductGroup1|||;579|ProductGroup1|||;&viewtype=2&imgg=B&nta=2&dattr=;&sitt=,&origin=&sht=1&shimi=1&shi=1&shst=1&simg=1&shtd=1&shid=1&stp=0&dtpl=DetailOne2Left&ntp=&alt_d=DetailItem'
+,[CONTROLLER_NAME]=N'ShowItem'
+,[ACTION_NAME]=N'SeachItemByCategory'
+,[DESCRIPTION]=N''
+,[HASCHILD]=0
+,[CONTROL_NAME]=N'Danh sách sản phẩm'
+,[SHOW_TITLE]=1
+,[META_DESC]=N'Sản phẩm'
+,[META_KEY]=N'Sản phẩm'
+,[PUBLIC]=0
+,[CSS_NAME]=N'menu-title-new'
+,[CONTENT]=N''
+,[IMAGE]=N''
+,[REQUIRED_LOGIN]=0
+,[TARGET]=N'_self'
+,[TEMP_NAME]=N'blue'
+,[STYLE_NAME]=N'Detail'
+,[TOTAL_ITEM]=0
+,[BAR_COLOR]=N''
+,[TITLE_COLOR]=N''
+,[TITLE_HEIGHT]=N''
+,[BACKGROUND_COLOR]=N''
+,[META_TITLE]=N'Sản phẩm'
+  WHERE 
+[MENU_ID]  =   1279
+  AND   ([LANGUAGE]='en' OR [LANGUAGE]='all')   AND  [PORTAL_ID]  =   3
+ 
+[2019-08-10 11:18:37 CH]
+[UPDATE]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Update(T item, String[] arrFields, Boolean bExclude, String strCondition)
+   at TN.ComLib.CommonHelper`1.Update(T obj, String[] arrFields, Boolean bExclude, Object condition)

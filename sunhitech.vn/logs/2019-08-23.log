@@ -1,0 +1,21 @@
+[2019-08-23 2:13:17 CH]
+[DELETEITEM]
+[mscorlib]
+Could not find file 'E:\Hosting\Plesk\sunhitech.vn\httpdocs\images\items\Scan1'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemInfo.set_Attributes(FileAttributes value)
+   at TrungNamCMS.Controllers.Admin.EShopController.DeleteItem(String itemCode)
+[2019-08-23 2:16:49 CH]
+[DELETEITEM]
+[mscorlib]
+Could not find file 'E:\Hosting\Plesk\sunhitech.vn\httpdocs\images\items\Scan1'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemInfo.set_Attributes(FileAttributes value)
+   at TrungNamCMS.Controllers.Admin.EShopController.DeleteItem(String itemCode)
+[2019-08-23 2:35:45 CH]
+[DELETEITEM]
+[mscorlib]
+Could not find file 'E:\Hosting\Plesk\sunhitech.vn\httpdocs\images\items\Scan1'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemInfo.set_Attributes(FileAttributes value)
+   at TrungNamCMS.Controllers.Admin.EShopController.DeleteItem(String itemCode)

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Quản lý danh mục</title>
+	<link href="../css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div>
+		<img src="../img/logo_admin.png" />
+		<hr/>
+    </div>
+	<div class="contain">
+	<div class="dv-left" id="dv-left">
+		
+	</div>
+	
+	<div class="dv-right">
+				<h1>I. Quản lý danh mục</h1>
+		<p>
+			Thông thường khi tạo bài viết người ta phải phân loại bài viết theo từng danh mục Vd: Tin mới, Tin trong ngành, Tin ngoài lề …&nbsp; để phân loại và chứa các bài viết và hiển thị theo nhu cầu của người dùng.</p>
+		<h2 id="go-1">
+			1. Tạo thể loại bài viết</h2>
+		<ul>
+			<li>
+				Vào menu D. Nội dung -&gt; &nbsp;2. Quản lý danh mục -&gt; Chọn nút “Thêm”</li>
+			<li>
+				Trong màn hình Thêm thể loại chỉ cần nhập các thông tin:&nbsp; Tên danh mục (nhập tên danh mục các ngôn ngữ khác nếu có). Phần “Danh mục cha” có thể chọn hoặc không.</li>
+		</ul>
+		<p>
+			<em>(Lưu ý: Phần Alias là phần tự động sinh ra nên không cần điền gì hết. Nếu lưu lại mà xuất hiện thông báo Alias đã tồn tại thì hãy gõ alias vào nội dung giống với tiêu đề bài viết và thêm 1 chữ nào đó vô, Alias gõ không cần dấu, vì gõ dấu thì chương trình cũng sẽ tự động bỏ dấu đi. )</em></p>
+		<p>
+			<img src="create-article.png" /></p>
+		<ul>
+			<li>
+				Bấm Lưu &nbsp;để lưu nội dung vừa tạo.</li>
+		</ul>
+		<h2 id="go-2">
+			2. Sửa thể loại</h2>
+		<ul>
+			<li>
+				Vào menu Nội dung -&gt; Quản lý danh mục</li>
+			<li>
+				Sau &nbsp;đó bấm vào tiêu đề của danh mục cần sửa trong danh sách hoặc nút Sửa phía bên phải của danh mục đó.</li>
+			<li>
+				Trong màn hình thông tin danh mục, nhập nội dung cần thay đổi giống như phần thêm mới danh mục sau đó bấm Lưu để lưu kết quả.</li>
+		</ul>
+		<h2 id="go-3">
+			3. Xóa thể loại</h2>
+		<ul>
+			<li>
+				Xoá thể loại: chọn thể loại cần xoá, sau đó chọn nút Xóa phía bên phải để xoá thể loại đó.</li>
+		</ul>
+
+	</div>
+
+	</div>
+	<div class="clr"></div>
+	<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $("#dv-left").load("../menuleft.html", function () {
+            $('#chap-1 > ul').css('display', 'block');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,526 @@
+[2019-08-12 8:56:31 SA]
+[UPLOAD IMAGE ITEM]
+Out of memory.
+[2019-08-12 8:56:40 SA]
+[UPLOAD IMAGE ITEM]
+Out of memory.
+[2019-08-12 8:56:57 SA]
+[UPLOAD IMAGE ITEM]
+Out of memory.
+[2019-08-12 8:57:35 SA]
+[UPLOAD IMAGE ITEM]
+Out of memory.
+[2019-08-12 9:26:07 SA]
+[EXECUTENONQUERY]
+[SQL String: UPDATE ESHOP_ITEMS SET 
+[ITEM_CODE]=N'LT003'
+,[ITEM_NAME]=N'Dell latitude 3490 i7 42LT340011'
+,[ITEM_NAME_NOSIGN]=N'Dell latitude 3490 i7 42LT340011'
+,[CAT_ID]=N';498;'
+,[CAT_NAME]=N'Máy tính xách tay'
+,[MAN_ID]=51
+,[MAN_NAME]=N'Dell'
+,[PROVIDER_ID]=0
+,[PROVIDER_NAME]=N''
+,[SHORT_DESCRIPTION]=N'<p>
+	&nbsp;</p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">Dell latitude 3490 42LT340011 - Đen</span><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- HDD : 1TB 5400rpm</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- VGA : Intel&reg; UHD Graphics 620</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- OS : Fedora</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- Pin : 4 Cell 56Whr</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- C&acirc;n nặng : 1.72Kg</span></span></span></p>
+<body id="cke_pastebin" style="position: absolute; top: 11.9964px; width: 1px; height: 1px; overflow: hidden; left: -1000px;">
+	<p>
+		<span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">Dell latitude 3490 42LT340011 - Đen</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- HDD : 1TB 5400rpm</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- VGA : Intel&reg; UHD Graphics 620</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- OS : Fedora</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- Pin : 4 Cell 56Whr</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- C&acirc;n nặng : 1.72Kg</span></p>
+</body>
+'
+,[DESCRIPTION]=N''
+,[PRICE]=23000000
+,[DISCOUNT_PRICE]=0
+,[DISCOUNT_START_DATE]=N''
+,[DISCOUNT_END_DATE]=N''
+,[ITEM_TYPE]=N''
+,[TAX_ID]=0
+,[TAX_VALUE]=0
+,[MIN_ORDER_QTY]=0
+,[MAX_ORDER_QTY]=0
+,[IMAGE]=N'spn-4.jpg'
+,[ITEM_WEIGHT]=0
+,[ITEM_WIDHT]=0
+,[ITEM_HEIGHT]=0
+,[ITEM_LENGHT]=0
+,[STATUS]=0
+,[ATTRIBUTE_ID]=0
+,[VISITED]=1
+,[PUBLISHED]=1
+,[PUBLISHED_DATE]=N'20190615'
+,[UPDATED_DATE]=N'20190812092607'
+,[CREATED_DATE]=N'20190615095857'
+,[CREATED_BY]=N'admin'
+,[META_KEY]=N'Dell latitude 3490 i7 42LT340011'
+,[META_DESCRIPTION]=N'Dell latitude 3490 42LT340011 - Đen- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)- RAM : 8GB (1x8GB) 2400MHz DDR4- HDD : 1TB 5400rpm- VGA : Intel® UHD Graphics 620- Màn hình : 14.0" HD (1366x768) Non-Touch Anti-Glare- OS : Fedora- Pin : 4 Cell 56Whr- Cân nặng : 1.72KgDell latitude 3490 42LT340011 - Đen- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)- RAM : 8GB (1x8GB) 2400MHz DDR4- HDD : 1TB 5400rpm- VGA : Intel® UHD Graphics 620- Màn hình : 14.0" HD (1366x768) Non-Touch Anti-Glare- OS : Fedora- Pin : 4 Cell 56Whr- Cân nặng : 1.72Kg'
+,[PAGE_TITLE]=N'Dell latitude 3490 i7 42LT340011'
+,[PAGE_HEADING]=N''
+,[LIST_IMAGES]=N'spn-4.jpg'
+,[SPECIAL]=0
+,[ORDERING]=9
+,[LANGUAGE]=N'vi'
+,[ITEM_TYPE_ID]=N'T16'
+,[ITEM_TYPE_NAME]=N'Máy tính xách tay'
+,[ORDERED]=0
+,[DOCUMENT]=N''
+,[INSURANCE_PRICE]=0
+,[ATTRIBUTE]=N''
+,[PRICE_2]=0
+,[SUB_TITLE]=N''
+,[DEFAULT_IMAGE]=N'spn-4.jpg'
+,[BANNER_IMAGE]=N''
+,[ITEM_ID]=N'82LT003'
+,[HOVER_IMAGE]=N''
+,[ROTATE_IMAGE]=N''
+,[NUMBER_ROTATE_IMAGE]=0
+,[SAME_PRODUCT_CODE]=N''
+,[FIRST_ITEM]=1
+,[VALUE_STR_1]=N''
+,[ITEM_CODE_IN_STOCK_1]=N''
+,[ITEM_CODE_IN_STOCK_2]=N''
+,[RELATED_PRODUCTS]=N''
+,[SIZE_IMAGE]=N''
+,[VALUE_STR_2]=N''
+,[ATTRIBUTE_1]=N'1157:,1157_1,1157_2,;,Tiết kiệm năng lượng,Thân thiện với môi trường,;,,,'
+,[ATTRIBUTE_2]=N'1166:,1166_0,1166_1,;,Năng động,Trẻ trung,;,,,'
+,[ATTRIBUTE_3]=N'1148:,1148_1,;,Full HD,;,,'
+,[ATTRIBUTE_4]=N''
+,[ATTRIBUTE_5]=N''
+,[ATTRIBUTE_6]=N''
+,[ATTRIBUTE_7]=N''
+,[ATTRIBUTE_8]=N''
+,[ATTRIBUTE_9]=N''
+,[ATTRIBUTE_10]=N''
+,[ATTRIBUTE_11]=N''
+,[ATTRIBUTE_12]=N''
+,[ATTRIBUTE_13]=N''
+,[ATTRIBUTE_14]=N''
+,[ATTRIBUTE_15]=N''
+,[PACK_IMAGE]=N''
+,[ORIGIN]=N''
+,[ORIGIN_NAME]=N''
+,[TOTAL_PEOPLE_RATE]=0
+,[TOTAL_RATE_STAR]=0
+,[RATE_AVERAGE]=0
+,[TRY_ON_IMAGE]=N''
+,[TEST_IMAGE]=N''
+,[CONTENT_2]=N''
+,[CONTENT_3]=N''
+,[CONTENT_4]=N'<p>
+	&nbsp;</p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">Dell latitude 3490 42LT340011 - Đen</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- HDD : 1TB 5400rpm</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- VGA : Intel&reg; UHD Graphics 620</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- OS : Fedora</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- Pin : 4 Cell 56Whr</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- C&acirc;n nặng : 1.72Kg</span></span></span></p>
+<body id="cke_pastebin" style="position: absolute; top: 11.9964px; width: 1px; height: 1px; overflow: hidden; left: -1000px;">
+	<p>
+		<span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">Dell latitude 3490 42LT340011 - Đen</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- HDD : 1TB 5400rpm</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- VGA : Intel&reg; UHD Graphics 620</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- OS : Fedora</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- Pin : 4 Cell 56Whr</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- C&acirc;n nặng : 1.72Kg</span></p>
+</body>
+'
+,[CONTENT_5]=N''
+,[CONTENT_6]=N''
+,[AUTHOR]=N''
+,[DATE_OF_MANUFACTURE]=N''
+,[KIND_ID]=N''
+,[KIND_NAME]=N''
+,[SIZE]=0
+  WHERE [ID]=N'402' .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TN.ComLib.DB.DBBase.ExecuteNonQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-12 9:26:07 SA]
+[SQL_LOG]
+UPDATE ESHOP_ITEMS SET 
+[ITEM_CODE]=N'LT003'
+,[ITEM_NAME]=N'Dell latitude 3490 i7 42LT340011'
+,[ITEM_NAME_NOSIGN]=N'Dell latitude 3490 i7 42LT340011'
+,[CAT_ID]=N';498;'
+,[CAT_NAME]=N'Máy tính xách tay'
+,[MAN_ID]=51
+,[MAN_NAME]=N'Dell'
+,[PROVIDER_ID]=0
+,[PROVIDER_NAME]=N''
+,[SHORT_DESCRIPTION]=N'<p>
+	&nbsp;</p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">Dell latitude 3490 42LT340011 - Đen</span><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- HDD : 1TB 5400rpm</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- VGA : Intel&reg; UHD Graphics 620</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- OS : Fedora</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- Pin : 4 Cell 56Whr</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- C&acirc;n nặng : 1.72Kg</span></span></span></p>
+<body id="cke_pastebin" style="position: absolute; top: 11.9964px; width: 1px; height: 1px; overflow: hidden; left: -1000px;">
+	<p>
+		<span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">Dell latitude 3490 42LT340011 - Đen</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- HDD : 1TB 5400rpm</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- VGA : Intel&reg; UHD Graphics 620</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- OS : Fedora</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- Pin : 4 Cell 56Whr</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- C&acirc;n nặng : 1.72Kg</span></p>
+</body>
+'
+,[DESCRIPTION]=N''
+,[PRICE]=23000000
+,[DISCOUNT_PRICE]=0
+,[DISCOUNT_START_DATE]=N''
+,[DISCOUNT_END_DATE]=N''
+,[ITEM_TYPE]=N''
+,[TAX_ID]=0
+,[TAX_VALUE]=0
+,[MIN_ORDER_QTY]=0
+,[MAX_ORDER_QTY]=0
+,[IMAGE]=N'spn-4.jpg'
+,[ITEM_WEIGHT]=0
+,[ITEM_WIDHT]=0
+,[ITEM_HEIGHT]=0
+,[ITEM_LENGHT]=0
+,[STATUS]=0
+,[ATTRIBUTE_ID]=0
+,[VISITED]=1
+,[PUBLISHED]=1
+,[PUBLISHED_DATE]=N'20190615'
+,[UPDATED_DATE]=N'20190812092607'
+,[CREATED_DATE]=N'20190615095857'
+,[CREATED_BY]=N'admin'
+,[META_KEY]=N'Dell latitude 3490 i7 42LT340011'
+,[META_DESCRIPTION]=N'Dell latitude 3490 42LT340011 - Đen- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)- RAM : 8GB (1x8GB) 2400MHz DDR4- HDD : 1TB 5400rpm- VGA : Intel® UHD Graphics 620- Màn hình : 14.0" HD (1366x768) Non-Touch Anti-Glare- OS : Fedora- Pin : 4 Cell 56Whr- Cân nặng : 1.72KgDell latitude 3490 42LT340011 - Đen- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)- RAM : 8GB (1x8GB) 2400MHz DDR4- HDD : 1TB 5400rpm- VGA : Intel® UHD Graphics 620- Màn hình : 14.0" HD (1366x768) Non-Touch Anti-Glare- OS : Fedora- Pin : 4 Cell 56Whr- Cân nặng : 1.72Kg'
+,[PAGE_TITLE]=N'Dell latitude 3490 i7 42LT340011'
+,[PAGE_HEADING]=N''
+,[LIST_IMAGES]=N'spn-4.jpg'
+,[SPECIAL]=0
+,[ORDERING]=9
+,[LANGUAGE]=N'vi'
+,[ITEM_TYPE_ID]=N'T16'
+,[ITEM_TYPE_NAME]=N'Máy tính xách tay'
+,[ORDERED]=0
+,[DOCUMENT]=N''
+,[INSURANCE_PRICE]=0
+,[ATTRIBUTE]=N''
+,[PRICE_2]=0
+,[SUB_TITLE]=N''
+,[DEFAULT_IMAGE]=N'spn-4.jpg'
+,[BANNER_IMAGE]=N''
+,[ITEM_ID]=N'82LT003'
+,[HOVER_IMAGE]=N''
+,[ROTATE_IMAGE]=N''
+,[NUMBER_ROTATE_IMAGE]=0
+,[SAME_PRODUCT_CODE]=N''
+,[FIRST_ITEM]=1
+,[VALUE_STR_1]=N''
+,[ITEM_CODE_IN_STOCK_1]=N''
+,[ITEM_CODE_IN_STOCK_2]=N''
+,[RELATED_PRODUCTS]=N''
+,[SIZE_IMAGE]=N''
+,[VALUE_STR_2]=N''
+,[ATTRIBUTE_1]=N'1157:,1157_1,1157_2,;,Tiết kiệm năng lượng,Thân thiện với môi trường,;,,,'
+,[ATTRIBUTE_2]=N'1166:,1166_0,1166_1,;,Năng động,Trẻ trung,;,,,'
+,[ATTRIBUTE_3]=N'1148:,1148_1,;,Full HD,;,,'
+,[ATTRIBUTE_4]=N''
+,[ATTRIBUTE_5]=N''
+,[ATTRIBUTE_6]=N''
+,[ATTRIBUTE_7]=N''
+,[ATTRIBUTE_8]=N''
+,[ATTRIBUTE_9]=N''
+,[ATTRIBUTE_10]=N''
+,[ATTRIBUTE_11]=N''
+,[ATTRIBUTE_12]=N''
+,[ATTRIBUTE_13]=N''
+,[ATTRIBUTE_14]=N''
+,[ATTRIBUTE_15]=N''
+,[PACK_IMAGE]=N''
+,[ORIGIN]=N''
+,[ORIGIN_NAME]=N''
+,[TOTAL_PEOPLE_RATE]=0
+,[TOTAL_RATE_STAR]=0
+,[RATE_AVERAGE]=0
+,[TRY_ON_IMAGE]=N''
+,[TEST_IMAGE]=N''
+,[CONTENT_2]=N''
+,[CONTENT_3]=N''
+,[CONTENT_4]=N'<p>
+	&nbsp;</p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">Dell latitude 3490 42LT340011 - Đen</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item " style="display: block; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- HDD : 1TB 5400rpm</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- VGA : Intel&reg; UHD Graphics 620</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- OS : Fedora</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- Pin : 4 Cell 56Whr</span></span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:tahoma,geneva,sans-serif;"><span class="item hide" style="display: inline; float: left; padding-right: 5px; margin-bottom: 5px; padding-left: 20px; position: relative;">- C&acirc;n nặng : 1.72Kg</span></span></span></p>
+<body id="cke_pastebin" style="position: absolute; top: 11.9964px; width: 1px; height: 1px; overflow: hidden; left: -1000px;">
+	<p>
+		<span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">Dell latitude 3490 42LT340011 - Đen</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- HDD : 1TB 5400rpm</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- VGA : Intel&reg; UHD Graphics 620</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- OS : Fedora</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- Pin : 4 Cell 56Whr</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- C&acirc;n nặng : 1.72Kg</span></p>
+</body>
+'
+,[CONTENT_5]=N''
+,[CONTENT_6]=N''
+,[AUTHOR]=N''
+,[DATE_OF_MANUFACTURE]=N''
+,[KIND_ID]=N''
+,[KIND_NAME]=N''
+,[SIZE]=0
+  WHERE [ID]=N'402'
+[2019-08-12 9:26:07 SA]
+[UPDATE]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Update(T item, String[] arrFields, Boolean bExclude, String strCondition)
+   at TN.ComLib.CommonHelper`1.Update(T obj, String conditionField, String conditionValue)
+[2019-08-12 9:26:34 SA]
+[EXECUTENONQUERY]
+[SQL String: UPDATE ESHOP_ITEMS SET 
+[ITEM_CODE]=N'LT003'
+,[ITEM_NAME]=N'Dell latitude 3490 i7 42LT340011'
+,[ITEM_NAME_NOSIGN]=N'Dell latitude 3490 i7 42LT340011'
+,[CAT_ID]=N';498;'
+,[CAT_NAME]=N'Máy tính xách tay'
+,[MAN_ID]=51
+,[MAN_NAME]=N'Dell'
+,[PROVIDER_ID]=0
+,[PROVIDER_NAME]=N''
+,[SHORT_DESCRIPTION]=N'<p>
+	&nbsp;</p>
+<p>
+	<span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">Dell latitude 3490 42LT340011 - Đen</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- HDD : 1TB 5400rpm</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- VGA : Intel&reg; UHD Graphics 620</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- OS : Fedora</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- Pin : 4 Cell 56Whr</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- C&acirc;n nặng : 1.72Kg</span></p>
+<body id="cke_pastebin" style="position: absolute; top: 11.9964px; width: 1px; height: 1px; overflow: hidden; left: -1000px;">
+	<p>
+		<span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">Dell latitude 3490 42LT340011 - Đen</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- HDD : 1TB 5400rpm</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- VGA : Intel&reg; UHD Graphics 620</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- OS : Fedora</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- Pin : 4 Cell 56Whr</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- C&acirc;n nặng : 1.72Kg</span></p>
+</body>
+'
+,[DESCRIPTION]=N''
+,[PRICE]=23000000
+,[DISCOUNT_PRICE]=0
+,[DISCOUNT_START_DATE]=N''
+,[DISCOUNT_END_DATE]=N''
+,[ITEM_TYPE]=N''
+,[TAX_ID]=0
+,[TAX_VALUE]=0
+,[MIN_ORDER_QTY]=0
+,[MAX_ORDER_QTY]=0
+,[IMAGE]=N'spn-4.jpg'
+,[ITEM_WEIGHT]=0
+,[ITEM_WIDHT]=0
+,[ITEM_HEIGHT]=0
+,[ITEM_LENGHT]=0
+,[STATUS]=0
+,[ATTRIBUTE_ID]=0
+,[VISITED]=1
+,[PUBLISHED]=1
+,[PUBLISHED_DATE]=N'20190615'
+,[UPDATED_DATE]=N'20190812092634'
+,[CREATED_DATE]=N'20190615095857'
+,[CREATED_BY]=N'admin'
+,[META_KEY]=N'Dell latitude 3490 i7 42LT340011'
+,[META_DESCRIPTION]=N'Dell latitude 3490 42LT340011 - Đen- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)- RAM : 8GB (1x8GB) 2400MHz DDR4- HDD : 1TB 5400rpm- VGA : Intel® UHD Graphics 620- Màn hình : 14.0" HD (1366x768) Non-Touch Anti-Glare- OS : Fedora- Pin : 4 Cell 56Whr- Cân nặng : 1.72KgDell latitude 3490 42LT340011 - Đen- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)- RAM : 8GB (1x8GB) 2400MHz DDR4- HDD : 1TB 5400rpm- VGA : Intel® UHD Graphics 620- Màn hình : 14.0" HD (1366x768) Non-Touch Anti-Glare- OS : Fedora- Pin : 4 Cell 56Whr- Cân nặng : 1.72Kg'
+,[PAGE_TITLE]=N'Dell latitude 3490 i7 42LT340011'
+,[PAGE_HEADING]=N''
+,[LIST_IMAGES]=N'spn-4.jpg'
+,[SPECIAL]=0
+,[ORDERING]=9
+,[LANGUAGE]=N'vi'
+,[ITEM_TYPE_ID]=N'T16'
+,[ITEM_TYPE_NAME]=N'Máy tính xách tay'
+,[ORDERED]=0
+,[DOCUMENT]=N''
+,[INSURANCE_PRICE]=0
+,[ATTRIBUTE]=N''
+,[PRICE_2]=0
+,[SUB_TITLE]=N''
+,[DEFAULT_IMAGE]=N'spn-4.jpg'
+,[BANNER_IMAGE]=N''
+,[ITEM_ID]=N'82LT003'
+,[HOVER_IMAGE]=N''
+,[ROTATE_IMAGE]=N''
+,[NUMBER_ROTATE_IMAGE]=0
+,[SAME_PRODUCT_CODE]=N''
+,[FIRST_ITEM]=1
+,[VALUE_STR_1]=N''
+,[ITEM_CODE_IN_STOCK_1]=N''
+,[ITEM_CODE_IN_STOCK_2]=N''
+,[RELATED_PRODUCTS]=N''
+,[SIZE_IMAGE]=N''
+,[VALUE_STR_2]=N''
+,[ATTRIBUTE_1]=N'1157:,1157_1,1157_2,;,Tiết kiệm năng lượng,Thân thiện với môi trường,;,,,'
+,[ATTRIBUTE_2]=N'1166:,1166_0,1166_1,;,Năng động,Trẻ trung,;,,,'
+,[ATTRIBUTE_3]=N'1148:,1148_1,;,Full HD,;,,'
+,[ATTRIBUTE_4]=N''
+,[ATTRIBUTE_5]=N''
+,[ATTRIBUTE_6]=N''
+,[ATTRIBUTE_7]=N''
+,[ATTRIBUTE_8]=N''
+,[ATTRIBUTE_9]=N''
+,[ATTRIBUTE_10]=N''
+,[ATTRIBUTE_11]=N''
+,[ATTRIBUTE_12]=N''
+,[ATTRIBUTE_13]=N''
+,[ATTRIBUTE_14]=N''
+,[ATTRIBUTE_15]=N''
+,[PACK_IMAGE]=N''
+,[ORIGIN]=N''
+,[ORIGIN_NAME]=N''
+,[TOTAL_PEOPLE_RATE]=0
+,[TOTAL_RATE_STAR]=0
+,[RATE_AVERAGE]=0
+,[TRY_ON_IMAGE]=N''
+,[TEST_IMAGE]=N''
+,[CONTENT_2]=N''
+,[CONTENT_3]=N''
+,[CONTENT_4]=N''
+,[CONTENT_5]=N''
+,[CONTENT_6]=N''
+,[AUTHOR]=N''
+,[DATE_OF_MANUFACTURE]=N''
+,[KIND_ID]=N''
+,[KIND_NAME]=N''
+,[SIZE]=0
+  WHERE [ID]=N'402' .Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TN.ComLib.DB.DBBase.ExecuteNonQuery(String sqlString, CommandType cmdType, SqlParameter[] parameters)
+[2019-08-12 9:26:34 SA]
+[SQL_LOG]
+UPDATE ESHOP_ITEMS SET 
+[ITEM_CODE]=N'LT003'
+,[ITEM_NAME]=N'Dell latitude 3490 i7 42LT340011'
+,[ITEM_NAME_NOSIGN]=N'Dell latitude 3490 i7 42LT340011'
+,[CAT_ID]=N';498;'
+,[CAT_NAME]=N'Máy tính xách tay'
+,[MAN_ID]=51
+,[MAN_NAME]=N'Dell'
+,[PROVIDER_ID]=0
+,[PROVIDER_NAME]=N''
+,[SHORT_DESCRIPTION]=N'<p>
+	&nbsp;</p>
+<p>
+	<span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">Dell latitude 3490 42LT340011 - Đen</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- HDD : 1TB 5400rpm</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- VGA : Intel&reg; UHD Graphics 620</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- OS : Fedora</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- Pin : 4 Cell 56Whr</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- C&acirc;n nặng : 1.72Kg</span></p>
+<body id="cke_pastebin" style="position: absolute; top: 11.9964px; width: 1px; height: 1px; overflow: hidden; left: -1000px;">
+	<p>
+		<span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">Dell latitude 3490 42LT340011 - Đen</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- RAM : 8GB (1x8GB) 2400MHz DDR4</span><span class="item " style="display: block; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- HDD : 1TB 5400rpm</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- VGA : Intel&reg; UHD Graphics 620</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- M&agrave;n h&igrave;nh : 14.0&quot; HD (1366x768) Non-Touch Anti-Glare</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- OS : Fedora</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- Pin : 4 Cell 56Whr</span><span class="item hide" style="display: inline; float: left; padding-right: 5px; font-size: 14px; margin-bottom: 5px; padding-left: 20px; position: relative; font-family: Roboto, arial, Helvetica, sans-serif;">- C&acirc;n nặng : 1.72Kg</span></p>
+</body>
+'
+,[DESCRIPTION]=N''
+,[PRICE]=23000000
+,[DISCOUNT_PRICE]=0
+,[DISCOUNT_START_DATE]=N''
+,[DISCOUNT_END_DATE]=N''
+,[ITEM_TYPE]=N''
+,[TAX_ID]=0
+,[TAX_VALUE]=0
+,[MIN_ORDER_QTY]=0
+,[MAX_ORDER_QTY]=0
+,[IMAGE]=N'spn-4.jpg'
+,[ITEM_WEIGHT]=0
+,[ITEM_WIDHT]=0
+,[ITEM_HEIGHT]=0
+,[ITEM_LENGHT]=0
+,[STATUS]=0
+,[ATTRIBUTE_ID]=0
+,[VISITED]=1
+,[PUBLISHED]=1
+,[PUBLISHED_DATE]=N'20190615'
+,[UPDATED_DATE]=N'20190812092634'
+,[CREATED_DATE]=N'20190615095857'
+,[CREATED_BY]=N'admin'
+,[META_KEY]=N'Dell latitude 3490 i7 42LT340011'
+,[META_DESCRIPTION]=N'Dell latitude 3490 42LT340011 - Đen- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)- RAM : 8GB (1x8GB) 2400MHz DDR4- HDD : 1TB 5400rpm- VGA : Intel® UHD Graphics 620- Màn hình : 14.0" HD (1366x768) Non-Touch Anti-Glare- OS : Fedora- Pin : 4 Cell 56Whr- Cân nặng : 1.72KgDell latitude 3490 42LT340011 - Đen- CPU : Intel Core i7-8550U Processor (1.8GHz upto 4.0GHz, 4Cores, 8Threads, 8MB cache)- RAM : 8GB (1x8GB) 2400MHz DDR4- HDD : 1TB 5400rpm- VGA : Intel® UHD Graphics 620- Màn hình : 14.0" HD (1366x768) Non-Touch Anti-Glare- OS : Fedora- Pin : 4 Cell 56Whr- Cân nặng : 1.72Kg'
+,[PAGE_TITLE]=N'Dell latitude 3490 i7 42LT340011'
+,[PAGE_HEADING]=N''
+,[LIST_IMAGES]=N'spn-4.jpg'
+,[SPECIAL]=0
+,[ORDERING]=9
+,[LANGUAGE]=N'vi'
+,[ITEM_TYPE_ID]=N'T16'
+,[ITEM_TYPE_NAME]=N'Máy tính xách tay'
+,[ORDERED]=0
+,[DOCUMENT]=N''
+,[INSURANCE_PRICE]=0
+,[ATTRIBUTE]=N''
+,[PRICE_2]=0
+,[SUB_TITLE]=N''
+,[DEFAULT_IMAGE]=N'spn-4.jpg'
+,[BANNER_IMAGE]=N''
+,[ITEM_ID]=N'82LT003'
+,[HOVER_IMAGE]=N''
+,[ROTATE_IMAGE]=N''
+,[NUMBER_ROTATE_IMAGE]=0
+,[SAME_PRODUCT_CODE]=N''
+,[FIRST_ITEM]=1
+,[VALUE_STR_1]=N''
+,[ITEM_CODE_IN_STOCK_1]=N''
+,[ITEM_CODE_IN_STOCK_2]=N''
+,[RELATED_PRODUCTS]=N''
+,[SIZE_IMAGE]=N''
+,[VALUE_STR_2]=N''
+,[ATTRIBUTE_1]=N'1157:,1157_1,1157_2,;,Tiết kiệm năng lượng,Thân thiện với môi trường,;,,,'
+,[ATTRIBUTE_2]=N'1166:,1166_0,1166_1,;,Năng động,Trẻ trung,;,,,'
+,[ATTRIBUTE_3]=N'1148:,1148_1,;,Full HD,;,,'
+,[ATTRIBUTE_4]=N''
+,[ATTRIBUTE_5]=N''
+,[ATTRIBUTE_6]=N''
+,[ATTRIBUTE_7]=N''
+,[ATTRIBUTE_8]=N''
+,[ATTRIBUTE_9]=N''
+,[ATTRIBUTE_10]=N''
+,[ATTRIBUTE_11]=N''
+,[ATTRIBUTE_12]=N''
+,[ATTRIBUTE_13]=N''
+,[ATTRIBUTE_14]=N''
+,[ATTRIBUTE_15]=N''
+,[PACK_IMAGE]=N''
+,[ORIGIN]=N''
+,[ORIGIN_NAME]=N''
+,[TOTAL_PEOPLE_RATE]=0
+,[TOTAL_RATE_STAR]=0
+,[RATE_AVERAGE]=0
+,[TRY_ON_IMAGE]=N''
+,[TEST_IMAGE]=N''
+,[CONTENT_2]=N''
+,[CONTENT_3]=N''
+,[CONTENT_4]=N''
+,[CONTENT_5]=N''
+,[CONTENT_6]=N''
+,[AUTHOR]=N''
+,[DATE_OF_MANUFACTURE]=N''
+,[KIND_ID]=N''
+,[KIND_NAME]=N''
+,[SIZE]=0
+  WHERE [ID]=N'402'
+[2019-08-12 9:26:34 SA]
+[UPDATE]
+[.Net SqlClient Data Provider]
+String or binary data would be truncated.
+The statement has been terminated.
+   at TN.ComLib.DB.DBAccess`1.Update(T item, String[] arrFields, Boolean bExclude, String strCondition)
+   at TN.ComLib.CommonHelper`1.Update(T obj, String conditionField, String conditionValue)

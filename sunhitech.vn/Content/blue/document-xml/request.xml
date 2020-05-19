@@ -1,0 +1,26 @@
+<NewDataSet>
+  <Table>
+    <LANGUAGE>vi</LANGUAGE>
+    <SUBJECT><![CDATA[Duyệt câu trả lời của Câu hỏi từ [USER]]]></SUBJECT>    
+    <BODY1><![CDATA[<h3 style='text-align: center'>Thông tin câu hỏi</h3><table style="border-spacing:10px;border-collapse:initial;margin: 0 0 0 20px;"><tr><td><b>Tiêu đề</b>:</td><td>[TITLE]</td></tr><tr><td><b>Người gửi</b>:</td><td>[FULLNAME]</td></tr><tr><td><b>Địa chỉ</b>:</td><td>[ADDRESS]</td></tr><tr><td><b>Điện thoại</b>:</td><td>[PHONE]</td></tr><tr><td style="vertical-align:top;"><b>Câu hỏi</b>:</td><td style="vertical-align:top;">[QUESTION]</td></tr><tr><td style="vertical-align:top;"><b>Câu trả lời</b>:</td><td style="vertical-align:top;">[ANSWER]</td></tr></table>]]></BODY1>
+    <BODY2><![CDATA[<div>Vui lòng click vào <a href='[LINK]'>đây</a> để phê duyệt</div>]]></BODY2>
+    <BODY3><![CDATA[]]></BODY3>
+    <BODY4><![CDATA[]]></BODY4>
+    <BODY><![CDATA[]]></BODY>
+	<NOTE><![CDATA[]]></NOTE>
+	<LINK><![CDATA[]]></LINK>
+    <CONTACT><![CDATA[]]></CONTACT>
+  </Table>
+  <Table>
+    <LANGUAGE>en</LANGUAGE>
+    <SUBJECT><![CDATA[Approve answer of Question from [USER]]]></SUBJECT>    
+	<BODY1><![CDATA[<h3 style='text-align: center'>Question info</h3><table style="border-spacing:10px;border-collapse:initial;margin: 0 0 0 20px;"><tr><td><b>Title</b>:</td><td>[TITLE]</td></tr><tr><td><b>Sender</b>:</td><td>[FULLNAME]</td></tr><tr><td><b>Address</b>:</td><td>[ADDRESS]</td></tr><tr><td><b>Phone</b>:</td><td>[PHONE]</td></tr><tr><td style="vertical-align:top;"><b>Question</b>:</td><td style="vertical-align:top;">[QUESTION]</td></tr><tr><td style="vertical-align:top;"><b>Answer</b>:</td><td style="vertical-align:top;">[ANSWER]</td></tr></table>]]></BODY1>
+    <BODY2><![CDATA[<div>Please click on <a href='[LINK]'> here </a> to approve answer for question</div>]]></BODY2>
+    <BODY3><![CDATA[]]></BODY3>
+    <BODY4><![CDATA[]]></BODY4>
+    <BODY><![CDATA[]]></BODY>
+	<NOTE><![CDATA[]]></NOTE>
+	<LINK><![CDATA[]]></LINK>
+    <CONTACT><![CDATA[]]></CONTACT>
+  </Table>
+</NewDataSet>

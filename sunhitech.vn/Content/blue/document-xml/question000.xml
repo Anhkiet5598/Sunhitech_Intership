@@ -1,0 +1,16 @@
+<NewDataSet>
+  <Table>
+    <LANGUAGE>vi</LANGUAGE>
+    <SUBJECT><![CDATA[Câu hỏi từ website viendong.edu.vn]]></SUBJECT>
+    <BODY1><![CDATA[<div><b>Hỏi đáp</b><br><b>Tiêu đề</b>: [TITLE]<br><b>Người gửi</b>: [FULLNAME]<br><b>Địa chỉ</b>: [ADDRESS]<br><b>Điện thoại</b>: [PHONE]<br><b>Câu hỏi</b>: [QUESTION]<br></div>]]></BODY1>
+    <LINK><![CDATA[<div>Vui lòng click vào <a href='[LINK]'>đây</a> để trả lời câu hỏi</div>]]></LINK>
+    <BODY><![CDATA[]]></BODY>
+  </Table>
+  <Table>
+    <LANGUAGE>en</LANGUAGE>
+    <SUBJECT><![CDATA[Câu hỏi từ doanh nghiệp [ORGANIZATION]]]></SUBJECT>
+    <BODY1><![CDATA[<div><b>Hỏi đáp</b><br><b>Tiêu đề</b>: [TITLE]<br><b>Người gửi</b>: [FULLNAME]<br><b>Địa chỉ</b>: [ADDRESS]<br><b>Điện thoại</b>: [PHONE]<br><b>Câu hỏi</b>: [QUESTION]<br></div>]]></BODY1>
+    <LINK><![CDATA[<div>Vui lòng click vào <a href='[LINK]'>đây</a> để trả lời câu hỏi</div>]]></LINK>
+    <BODY><![CDATA[]]></BODY>
+  </Table>
+</NewDataSet>

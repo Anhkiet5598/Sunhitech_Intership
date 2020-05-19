@@ -1,0 +1,26 @@
+<NewDataSet>
+  <Table>
+    <LANGUAGE>vi</LANGUAGE>
+    <SUBJECT><![CDATA[Thông tin Xác nhận tài khoản website ioptic.vn]]></SUBJECT>    
+    <BODY1><![CDATA[<h3 style='text-align: center'>Thông tin Xác nhận tài khoản</h3>]]></BODY1>
+    <BODY2><![CDATA[<div>Bạn vừa đăng ký tài khoản ở trang <a href="demo.ioptic.vn">demo.ioptic.vn</a>. Vui lòng bấm vào link dưới đây xác nhận tài khoản.</div><div><a href='[LINK]'>[LINK]</a></div>]]></BODY2>
+    <BODY3><![CDATA[<br /><br /><br /><div><i>Chú ý: Link trên chỉ có hiệu lực trong vòng 24h.<i></div><div><p><i>Đây là email gởi tự động, quý khách hàng không cần trả lời email này.</i></p></div>]]></BODY3>
+    <BODY4><![CDATA[]]></BODY4>
+    <BODY><![CDATA[]]></BODY>
+	<NOTE><![CDATA[]]></NOTE>
+	<LINK><![CDATA[]]></LINK>
+    <CONTACT><![CDATA[]]></CONTACT>
+  </Table>
+  <Table>
+    <LANGUAGE>en</LANGUAGE>
+    <SUBJECT><![CDATA[Account Confirmation Information website ioptic.vn]]></SUBJECT>    
+    <BODY1><![CDATA[<h3 style='text-align: center'>Account Confirmation Information</h3>]]></BODY1>
+    <BODY2><![CDATA[<div>You just registered an account on the page <a href="demo.ioptic.vn">demo.ioptic.vn</a>. Please click on the link below to confirm your account.</div><div><a href='[LINK]'>[LINK]</a></div>]]></BODY2>
+    <BODY3><![CDATA[<br /><br /><br /><div><i>Note: This link is only valid for 24 hours.<i></div><div><p><i>This is an automated email, you do not need to reply to this email.</i></p></div>]]></BODY3>
+    <BODY4><![CDATA[]]></BODY4>
+    <BODY><![CDATA[]]></BODY>
+	<NOTE><![CDATA[]]></NOTE>
+	<LINK><![CDATA[]]></LINK>
+    <CONTACT><![CDATA[]]></CONTACT>
+  </Table>
+</NewDataSet>

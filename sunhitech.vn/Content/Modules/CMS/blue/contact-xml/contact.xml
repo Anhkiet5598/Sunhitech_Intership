@@ -1,0 +1,26 @@
+<NewDataSet>
+  <Table>
+    <LANGUAGE>vi</LANGUAGE>
+    <SUBJECT><![CDATA[Thông tin yêu cầu liên hệ từ website SUN HITECH]]></SUBJECT>    
+    <BODY1><![CDATA[<h3 style='text-align: center'>Thông tin yêu cầu liên hệ</h3>]]></BODY1>
+    <BODY2><![CDATA[<table style="border-collapse: initial; border-spacing: 5px;"><tr><td style="font-weight: bold;">Người yêu cầu: </td><td>[FULL_NAME]</td></tr><tr><td style="font-weight: bold;">Điện thoại:</td><td>[PHONE]</td></tr><tr><td style="font-weight: bold;">Email: </td><td>[EMAIL]</td></tr><tr><td style="font-weight: bold;">Địa chỉ: </td><td>[ADDRESS]</td></tr><tr><td style="font-weight: bold;">Tiêu đề: </td><td>[TITLE]</td></tr><tr><td style="font-weight: bold;">Nội dung: </td><td>[DESCRIPTION]</td></tr></table>]]></BODY2>
+    <BODY3><![CDATA[]]></BODY3>
+    <BODY4><![CDATA[]]></BODY4>
+    <BODY><![CDATA[]]></BODY>
+	<NOTE><![CDATA[<div style='padding-top: 30px; padding-left: 15px'><p><i>Đây là email gởi tự động, bạn vui lòng không trả lời email này.</i></p></div>]]></NOTE>
+	<LINK><![CDATA[]]></LINK>
+    <CONTACT><![CDATA[]]></CONTACT>
+  </Table>
+  <Table>
+    <LANGUAGE>en</LANGUAGE>
+    <SUBJECT><![CDATA[Order product's infomation from website SUN HITECH]]></SUBJECT>    
+	<BODY1><![CDATA[<h3 style='text-align: center'>Order product's infomation</h3>]]></BODY1>
+    <BODY2><![CDATA[<table style="border-collapse: initial; border-spacing: 5px;"><tr><td style="font-weight: bold;">Full name</td><td>[FULL_NAME]</td></tr><tr><td style="font-weight: bold;">Company</td><td>[COMPANY_NAME]</td></tr><tr><td style="font-weight: bold;">Address</td><td>[ADDRESS]</td></tr><tr><td style="font-weight: bold;">Phone/Cell</td><td>[PHONE]</td></tr><tr><td style="font-weight: bold;">Email</td><td>[EMAIL]</td></tr><tr><td style="font-weight: bold;">Message</td><td>[DESCRIPTION]</td></tr></table>]]></BODY2>
+    <BODY3><![CDATA[]]></BODY3>
+    <BODY4><![CDATA[]]></BODY4>
+    <BODY><![CDATA[]]></BODY>
+	<NOTE><![CDATA[<div style='padding-top: 30px; padding-left: 15px'><p><i>This is an automated email without replying to this email.</i></p></div>]]></NOTE>
+	<LINK><![CDATA[]]></LINK>
+    <CONTACT><![CDATA[]]></CONTACT>
+  </Table>
+</NewDataSet>
